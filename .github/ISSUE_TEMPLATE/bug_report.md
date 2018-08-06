@@ -10,7 +10,7 @@ about: Create a report to help us improve
 A clear and concise description of what the bug is.
 
 **Crash Report or Log**
-99% of reports without Crash Reports or Logs on pastebin will be closed immediately.
+99% of reports without Crash Reports or Logs via pastebin will be closed immediately.
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
