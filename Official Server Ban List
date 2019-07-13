@@ -1,0 +1,762 @@
+[
+  {
+    "uuid": "a1ed45ef-eac9-4ec5-8c23-9b0164e6d329",
+    "name": "keiferoni78",
+    "created": "2017-09-10 09:13:13 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Griefing. toodles."
+  },
+  {
+    "uuid": "14ab4be6-cc55-40ca-972b-c20590762d75",
+    "name": "Dubstep_Teflon",
+    "created": "2017-03-25 20:42:10 -0400",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "4d0d8a96-4794-4c5b-96e2-4800e725d4d6",
+    "name": "fepoe300",
+    "created": "2018-02-26 17:38:43 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "sucks."
+  },
+  {
+    "uuid": "97dbf9e4-c0b0-4287-b0a6-6b9befa65c6b",
+    "name": "Noccturnal",
+    "created": "2017-06-10 16:27:06 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "4d1f2dbc-dc53-4d7b-8c19-5863e52a7d04",
+    "name": "DariusFaerin",
+    "created": "2017-04-29 20:17:15 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "No time to baby sit."
+  },
+  {
+    "uuid": "a14a251d-9621-446a-9b8a-812a582c1245",
+    "name": "Swindle_Arts",
+    "created": "2019-06-17 17:47:52 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "No Griefing. Thanks for Coming."
+  },
+  {
+    "uuid": "3434a434-fddd-49f8-ab87-61a0a9145bdd",
+    "name": "Tipper55",
+    "created": "2017-02-17 14:42:20 -0500",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "13ec9375-2906-4c78-a1fd-dfc388b5b114",
+    "name": "The_stig104",
+    "created": "2017-02-17 14:41:50 -0500",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "0ec31c0f-5a92-489e-9d12-719f72e457d2",
+    "name": "Demonboy69",
+    "created": "2017-06-02 23:13:46 -0400",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "2a71d854-53a6-47e6-9f9a-dd245db869b9",
+    "name": "HAZALIKTENSTIEN",
+    "created": "2019-04-19 13:44:25 -0400",
+    "source": "Zunhed",
+    "expires": "forever",
+    "reason": "Greifing"
+  },
+  {
+    "uuid": "b12e07c9-3a7a-45fd-877b-5743bc46c966",
+    "name": "BassPlay",
+    "created": "2019-07-10 16:44:08 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "We dont like you either."
+  },
+  {
+    "uuid": "d3042d59-da0b-4393-8b9d-4019a2213f5c",
+    "name": "iHAXuBRO",
+    "created": "2017-02-12 19:51:38 -0500",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "Goodbye"
+  },
+  {
+    "uuid": "5028c335-fbca-4a47-b429-bb8e7e0433a2",
+    "name": "CCK1223",
+    "created": "2018-06-04 10:57:13 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Childish behavior - Exccessive profanity"
+  },
+  {
+    "uuid": "b24d766d-a514-484c-8b99-20184ba84b9e",
+    "name": "GenuineCupcake",
+    "created": "2017-06-18 19:32:41 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Bye."
+  },
+  {
+    "uuid": "9bfd7b6f-f0ad-4fe4-bea0-58d487a53092",
+    "name": "_Wolfstien_",
+    "created": "2017-05-27 20:32:09 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Peace kid"
+  },
+  {
+    "uuid": "d12dfd91-d7e7-4594-88ed-0748b269dc9f",
+    "name": "unwaveringgamer",
+    "created": "2017-06-28 19:56:39 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "griefing/stealing."
+  },
+  {
+    "uuid": "5a81e738-212d-4fda-a56b-1d4ceaef285a",
+    "name": "Spidervinz",
+    "created": "2017-09-10 10:20:38 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "Griefing"
+  },
+  {
+    "uuid": "e9713d03-4f36-4d07-a829-8d7a6af9ff08",
+    "name": "thesilentrage",
+    "created": "2018-08-21 17:59:17 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Perm. Ban for bullying and trying to circumvent temp ban with secondary account."
+  },
+  {
+    "uuid": "59f5ff81-1ccd-4b0b-b88c-56adeaad954a",
+    "name": "TaiganBond",
+    "created": "2017-10-25 12:55:38 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Griefing - Theft - Common Douchebagery"
+  },
+  {
+    "uuid": "950a3113-378a-4078-aaed-40556a5cbd76",
+    "name": "roeidana",
+    "created": "2017-12-05 14:09:47 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "8998ccec-5472-4b6b-b0e2-9965ecc4708f",
+    "name": "xRyn",
+    "created": "2017-01-17 17:48:27 -0500",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "45718d45-ce0d-4f5c-b995-c3392d771e8c",
+    "name": "Dr_Frankfurter",
+    "created": "2018-09-25 20:40:11 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "6d027447-f417-4177-b071-5e32d6a3daab",
+    "name": "CrisPower1282",
+    "created": "2017-04-13 12:52:33 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "a9d2bcdf-472a-494d-a85e-90f5659a2aa7",
+    "name": "Marissa_20",
+    "created": "2017-04-13 15:00:10 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "griefing is a big no no disagree goto discord"
+  },
+  {
+    "uuid": "0bbe7f05-c824-4550-bfd7-96ad44dd9755",
+    "name": "flemster2",
+    "created": "2017-07-11 18:42:56 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "dont grief a admin then lie to him about it"
+  },
+  {
+    "uuid": "40912cb4-d008-4de9-9c2a-aced65660daf",
+    "name": "Chameleon7777",
+    "created": "2018-03-11 18:51:41 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Vulgarity - rule breaking"
+  },
+  {
+    "uuid": "d5ae008d-45e3-449b-833e-bd1c332a862b",
+    "name": "XOryxDoomX",
+    "created": "2017-03-22 09:09:47 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "7bac4c21-0a79-44e8-b851-aef01aadfea9",
+    "name": "PoDoesMinecraft",
+    "created": "2017-06-02 23:13:03 -0400",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "b381d50a-b9a2-4058-a28f-ab3c95f3ef57",
+    "name": "hunterman1121",
+    "created": "2017-06-27 22:15:34 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "a6a6aac0-0564-49d6-aadd-95796430b044",
+    "name": "GoosyGoose",
+    "created": "2019-06-07 19:37:36 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "2b491997-a186-4c0e-bd53-f1772bb37b0f",
+    "name": "DragonSinWydo",
+    "created": "2019-01-24 00:53:29 -0500",
+    "source": "Zunhed",
+    "expires": "forever",
+    "reason": "Greifing"
+  },
+  {
+    "uuid": "2b56c2b4-4cba-42c9-86fb-73e2624b1d13",
+    "name": "Joshskulls_",
+    "created": "2017-07-31 15:28:49 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Bye o/"
+  },
+  {
+    "uuid": "2896d035-383c-4285-b181-66bdd8c2edfc",
+    "name": "cq1487",
+    "created": "2018-04-16 11:05:22 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Bai"
+  },
+  {
+    "uuid": "68b2798a-cfd6-4ef9-b109-0533a055d8d2",
+    "name": "killerdude555",
+    "created": "2017-04-01 14:41:02 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "You were warned. english only. and dont come in and start talking shit"
+  },
+  {
+    "uuid": "d561f4bd-6b2d-4c61-9cc2-e10e098b7014",
+    "name": "minebot2",
+    "created": "2019-02-05 17:26:26 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Griefing + Stealing"
+  },
+  {
+    "uuid": "3e6b9024-c385-4951-b2fe-78f90ea89948",
+    "name": "Zakir7",
+    "created": "2019-04-03 15:42:09 -0400",
+    "source": "ManiacMiner93",
+    "expires": "forever",
+    "reason": "Griefing"
+  },
+  {
+    "uuid": "b8f9dc0f-590a-4f0f-9de1-92f54227b69f",
+    "name": "_Kayden",
+    "created": "2017-04-13 17:01:35 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "5eb036eb-dbfa-4527-ac06-a98d787eb98f",
+    "name": "Hxtra",
+    "created": "2017-06-10 16:26:33 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "6f6788c1-fcfd-4307-be45-1644cc4ace88",
+    "name": "CaptainMockChock",
+    "created": "2019-01-26 19:36:11 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Childish Behavior."
+  },
+  {
+    "uuid": "4e77fc22-1f0f-4cf2-a378-b83efff03780",
+    "name": "xxmemegodxx",
+    "created": "2018-07-29 15:15:41 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Arguing with staff, posting pornogrpahy, exteme vulgarity, overall childish behavior."
+  },
+  {
+    "uuid": "748ca458-92d5-47d1-a82a-282628dbbd2b",
+    "name": "Markoxx1",
+    "created": "2017-12-05 14:10:09 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "5b2488e7-3a71-424a-bccf-55dd9488149e",
+    "name": "_Senpai_Chan_",
+    "created": "2018-05-13 08:11:30 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Vulgarity, indecent comments, and racism."
+  },
+  {
+    "uuid": "494ded96-ac19-4736-a576-49e35525df4f",
+    "name": "Ichbinguhter",
+    "created": "2017-09-10 10:20:55 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "Griefing"
+  },
+  {
+    "uuid": "79d946db-d3d2-4270-a6ee-8cefd26bf956",
+    "name": "CryzyMage",
+    "created": "2019-02-17 13:31:19 -0500",
+    "source": "Dreamz109",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "b22e44c7-2e21-42e4-81b4-d9a6c7aa186a",
+    "name": "mcsean1117",
+    "created": "2019-04-03 15:42:26 -0400",
+    "source": "ManiacMiner93",
+    "expires": "forever",
+    "reason": "Griefing"
+  },
+  {
+    "uuid": "ee18eecf-98ac-46b3-894d-5c616f0c9822",
+    "name": "rOOm",
+    "created": "2017-04-03 13:06:29 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "20s"
+  },
+  {
+    "uuid": "1ac71a7b-31ca-41c1-92b9-bfe4bae9c66f",
+    "name": "GodOfAllGames",
+    "created": "2018-04-21 13:03:33 -0400",
+    "source": "IRoomI",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "287f94bd-f6cc-4d93-9e4d-089151647613",
+    "name": "Edwinem",
+    "created": "2018-07-31 12:21:46 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Threatening the well being of the server."
+  },
+  {
+    "uuid": "b7b118ce-4693-4e2a-a9f0-410219569bee",
+    "name": "SUEPR_SIAN_ROSE",
+    "created": "2019-06-16 07:03:36 -0400",
+    "source": "matty_boo",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "475d0334-8e42-443c-bc1b-9661491ccb2b",
+    "name": "skulleemax",
+    "created": "2017-04-03 22:03:21 -0400",
+    "source": "IRoomI",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "24302703-b217-40b6-adf7-2872869d8167",
+    "name": "mikkelj2005",
+    "created": "2017-06-15 10:09:54 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "bye bitch"
+  },
+  {
+    "uuid": "9a213f29-6be1-42af-82da-4752fe7288ac",
+    "name": "Confucius_Lu",
+    "created": "2019-07-07 14:38:13 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "12d943b2-d253-4a72-96c3-d57dd3e57b0c",
+    "name": "ZionImamu",
+    "created": "2017-07-08 07:54:24 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "b1c9aead-ebf9-4e98-84fa-5170661cc7cd",
+    "name": "NDON1",
+    "created": "2017-04-03 15:51:25 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "a9a66ead-c76c-4564-a8a4-7483382c00d8",
+    "name": "CasualxPineapple",
+    "created": "2017-06-29 06:14:20 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "later child. take your language and griefing someplace else"
+  },
+  {
+    "uuid": "68eac150-6056-4507-8841-a3e2ac519be8",
+    "name": "Numbz",
+    "created": "2017-06-12 20:02:14 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "Griefing"
+  },
+  {
+    "uuid": "58848ced-f396-46d9-8cf2-764cc9f6c0dc",
+    "name": "Baseballhitter",
+    "created": "2018-06-22 20:06:31 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Take that childish crap somewhere else"
+  },
+  {
+    "uuid": "884a0d8c-27fa-4824-b3ef-94f50ea94b5f",
+    "name": "list",
+    "created": "2017-03-24 11:19:40 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "389353d8-5b10-43fe-8e72-24128e22f6f5",
+    "name": "BaconSnatch",
+    "created": "2017-03-26 16:38:24 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "372d83a3-376f-4339-ba90-40ca069c5359",
+    "name": "NitroMikePlays",
+    "created": "2017-07-08 23:23:38 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "enjoy that sensation."
+  },
+  {
+    "uuid": "01729770-36ee-4910-8048-4b31363c6cfd",
+    "name": "wizardmonkey",
+    "created": "2017-06-27 22:15:23 -0400",
+    "source": "Kamizura",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "40542013-02fc-42d7-a51c-3b97c3e7f88a",
+    "name": "nysro",
+    "created": "2017-02-12 20:24:46 -0500",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "Please stop"
+  },
+  {
+    "uuid": "305f6063-2017-4cac-b795-f1b6c4eb5dfe",
+    "name": "masterwewe",
+    "created": "2019-07-13 01:50:50 -0400",
+    "source": "Arkuos",
+    "expires": "forever",
+    "reason": "Hate Speech + Harassment"
+  },
+  {
+    "uuid": "fe30945c-1e8c-4d9a-9a3a-fabf9e45c4ec",
+    "name": "jam0hamm1",
+    "created": "2017-05-21 15:09:46 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "d8947c52-ca8c-45a3-9847-c2e2686201a0",
+    "name": "VeNoMiRoNiCz",
+    "created": "2017-04-30 19:03:23 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Bye kid"
+  },
+  {
+    "uuid": "82e6a0ea-37e2-4ee9-9e95-bf6d196c83ab",
+    "name": "KryozHDLPMCPVP",
+    "created": "2019-02-17 13:34:09 -0500",
+    "source": "Dreamz109",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "a2c86ef9-221e-489e-9cef-f92740243022",
+    "name": "looneytunes3",
+    "created": "2017-07-11 19:24:00 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "6a34b56c-46f2-42e2-b683-e1ea792a0212",
+    "name": "kristiank2007",
+    "created": "2017-06-08 15:00:13 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "a3495e3a-75b7-4f5b-9455-6537ed2f27ab",
+    "name": "JuleNis",
+    "created": "2017-06-15 10:09:46 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "bye"
+  },
+  {
+    "uuid": "13b28c5c-63cc-476c-b28f-eb3a2ae7247d",
+    "name": "paz4eva",
+    "created": "2017-07-11 20:11:35 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "dont be disrespectfull"
+  },
+  {
+    "uuid": "f6a92a41-2d66-42a5-aff8-49688380e58e",
+    "name": "HW_Ploxle",
+    "created": "2017-07-17 09:06:16 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Griefing, General Item Grief, Animal Grief - Forever"
+  },
+  {
+    "uuid": "13bdb795-44ad-4e9d-a194-abe668e8321f",
+    "name": "lizardfrompluto",
+    "created": "2019-07-10 22:40:18 -0400",
+    "source": "KamizuraSan",
+    "expires": "forever",
+    "reason": "extreme vulgarity/racism"
+  },
+  {
+    "uuid": "263b1129-8e4d-494d-9fcd-8263e0eab356",
+    "name": "Deathlord768",
+    "created": "2017-07-15 09:02:55 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Involving self in admin business - arguing with staff"
+  },
+  {
+    "uuid": "67deb5fc-572d-4e79-964a-8824b8334aa8",
+    "name": "jackwalkerMUFC",
+    "created": "2019-03-13 07:01:27 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "peace love and harmony"
+  },
+  {
+    "uuid": "16872dc3-85cd-4ce3-8134-cb634e868f76",
+    "name": "Zarharagin",
+    "created": "2017-05-22 17:00:45 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Toodles"
+  },
+  {
+    "uuid": "288b259a-5f99-4b5e-8bb5-575a594db4c5",
+    "name": "Raylo555",
+    "created": "2017-09-16 14:17:34 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "b-b-bye?"
+  },
+  {
+    "uuid": "a953f056-cae3-4e01-91e7-2f00e7ec9e2b",
+    "name": "El_Bamboulator",
+    "created": "2018-11-14 13:01:47 -0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Griefing. Breaking chunk loading rules."
+  },
+  {
+    "uuid": "3d2d4293-e280-4d20-b4e5-f48853a6020c",
+    "name": "CheesyBanana32",
+    "created": "2017-02-12 19:57:49 -0500",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "same"
+  },
+  {
+    "uuid": "930535ae-e3ef-48ab-9e0d-753ec4c3118f",
+    "name": "Smithy1222",
+    "created": "2018-03-11 19:04:15 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Severe case of baby genitalia."
+  },
+  {
+    "uuid": "7e407e11-6947-4cf5-80ae-c0014313e5de",
+    "name": "TheVapist",
+    "created": "2019-02-08 18:51:54 -0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Obviously Mentally to Mentally Deficient to Interact With Others."
+  },
+  {
+    "uuid": "5a0c2a8b-5767-4cd5-8e24-ebbccd2fe3c8",
+    "name": "mibs_bonde",
+    "created": "2017-06-15 09:58:12 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "2fe158bb-2862-4d21-9d8d-2707d988580c",
+    "name": "Stiftoad",
+    "created": "2019-01-24 00:54:25 -0500",
+    "source": "Zunhed",
+    "expires": "forever",
+    "reason": "Greifing"
+  },
+  {
+    "uuid": "19c4045f-89d9-4963-a836-9758cc10997a",
+    "name": "SillyRab",
+    "created": "2019-04-07 19:08:22 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Silly kids..."
+  },
+  {
+    "uuid": "5a37f9a6-e8d5-4d83-a36e-b5883549b666",
+    "name": "FastolfeFTW",
+    "created": "2017-09-16 19:52:16 -0400",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "Griefing/Stealing"
+  },
+  {
+    "uuid": "d90d35c5-96c3-4719-9d0f-c46d3e761e26",
+    "name": "lyulf0",
+    "created": "2017-10-18 06:14:26 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "griefing will not be tolerated"
+  },
+  {
+    "uuid": "3cf6e62b-2d75-4207-af3c-31dc4ec36ae2",
+    "name": "DefHD",
+    "created": "2017-06-02 23:13:18 -0400",
+    "source": "Mattokah",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "3914c212-8a4b-41f9-99d0-f979627744ee",
+    "name": "EnderNoob",
+    "created": "2017-06-18 23:01:17 -0400",
+    "source": "IRoomI",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "c429bb5d-9465-4144-9c72-2914f0787a02",
+    "name": "Grishord",
+    "created": "2019-01-03 21:07:25 -0500",
+    "source": "Y0ungSandwich",
+    "expires": "forever",
+    "reason": "o/"
+  },
+  {
+    "uuid": "4bc5cf7c-e620-4181-854b-04fb92ab2438",
+    "name": "iTzDeathVenomYT",
+    "created": "2017-03-24 11:18:16 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "7fb9de92-d0df-4b24-aa6b-ee2b962e0c94",
+    "name": "YourAveragePro",
+    "created": "2017-06-09 20:57:04 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "3190f19e-9fcd-4ce1-aabd-7f23ce6f2acd",
+    "name": "FurStudios_Nick",
+    "created": "2017-07-11 20:16:44 -0400",
+    "source": "cpt_England",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "0c4a25e5-3bd2-4f91-803e-4c74b815e0a3",
+    "name": "InfantBlender",
+    "created": "2017-02-12 20:39:13 -0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "8be0772e-8995-44e7-b662-fa2f8b16f93f",
+    "name": "ProKiller5739",
+    "created": "2017-04-17 19:08:12 -0400",
+    "source": "TriffidDK",
+    "expires": "forever",
+    "reason": "The BanHammer has spoken!"
+  },
+  {
+    "uuid": "cdf95a54-daac-4275-826d-b805e26dcb5a",
+    "name": "KvngWes",
+    "created": "2019-07-13 01:51:19 -0400",
+    "source": "Arkuos",
+    "expires": "forever",
+    "reason": "Hate Speech + Harassment"
+  },
+  {
+    "uuid": "8aa42dee-328b-4058-ab12-cb472473d422",
+    "name": "minetalker",
+    "created": "2018-08-21 17:55:56 -0400",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You may be crashing the server. Please come to discord"
+  }
+]
