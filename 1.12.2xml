@@ -1,21 +1,17 @@
 <version>
-    <pack>
-        <version>3.1.7</version>
-        <minecraft>1.12.2</minecraft>
-        <memory>4096</memory>
-        <permgen>512</permgen>
-        <java min="8" />
-    </pack>
-    <loader type="forge" version="14.23.5.2847"/>
-    
-    
-    <delete>
+  <pack>
+    <version>3.1.8</version>
+    <minecraft>1.12.2</minecraft>
+    <memory>4096</memory>
+    <permgen>512</permgen>
+    <java min="8"/>
+  </pack>
+  <loader type="forge" version="14.23.5.2847"/>
+  <delete>
       <folder base="root" target="scripts%s%"/>
       <folder base="root" target="local%s%"/>
     </delete>
-
-    
-    <colours>
+  <colours>
         <colour name="Green" code="cef4cb"/>
         <colour name="Red" code="d15047"/>
         <colour name="Orange" code="f46e42"/>
@@ -23,309 +19,308 @@
         <colour name="Purple" code="cd6ee5"/>
         <colour name="Yellow" code="fffa00"/>
     </colours>
-        
-        <mods>
+  <mods>
         
         <!-- Main mods -->
         
-        <mod name="Actually Additions" version="r151-2" url="packs/MechMagic/files/1.12.2Mods/Mods/ActuallyAdditions-1.12.2-r151-2.jar" file="ActuallyAdditions-1.12.2-r151-2.jar" md5="e62726802ff285f63da89690895c375c" download="server" type="mods" />
+        <mod name="Actually Additions" version="r151-2" url="packs/MechMagic/files/3.1.8/ActuallyAdditions-1.12.2-r151-2.jar" file="ActuallyAdditions-1.12.2-r151-2.jar" md5="e62726802ff285f63da89690895c375c" download="server" type="mods"/>
         
-        <mod name="Advanced Generators" version="0.9.20.12" url="packs/MechMagic/files/1.12.2Mods/Mods/generators-0.9.20.12-mc1.12.2.jar" file="generators-0.9.20.12-mc1.12.2.jar" md5="7873749b116958f22a3af9d66db06a37" download="server" type="mods" />
+        <mod name="Advanced Generators" version="0.9.20.12" url="packs/MechMagic/files/3.1.8/generators-0.9.20.12-mc1.12.2.jar" file="generators-0.9.20.12-mc1.12.2.jar" md5="7873749b116958f22a3af9d66db06a37" download="server" type="mods"/>
         
-        <mod name="AE2 Stuff" version="0.7.0.4" url="packs/MechMagic/files/1.12.2Mods/Mods/ae2stuff-0.7.0.4-mc1.12.2.jar" file="ae2stuff-0.7.0.4-mc1.12.2.jar" md5="8594b7501c1ecc1bdaaa8ef42b7dbdda" download="server" type="mods" />
+        <mod name="AE2 Stuff" version="0.7.0.4" url="packs/MechMagic/files/3.1.8/ae2stuff-0.7.0.4-mc1.12.2.jar" file="ae2stuff-0.7.0.4-mc1.12.2.jar" md5="8594b7501c1ecc1bdaaa8ef42b7dbdda" download="server" type="mods"/>
         
-        <mod name="Akashic Tome" version="1.2-12" url="packs/MechMagic/files/1.12.2Mods/Mods/AkashicTome-1.2-12.jar" file="AkashicTome-1.2-12.jar" md5="b753c7ce93ad8768e3ba3a9f35d16bee" download="server" type="mods" />
+        <mod name="Akashic Tome" version="1.2-12" url="packs/MechMagic/files/3.1.8/AkashicTome-1.2-12.jar" file="AkashicTome-1.2-12.jar" md5="b753c7ce93ad8768e3ba3a9f35d16bee" download="server" type="mods"/>
         
-        <mod name="Applied Energistics 2" version="rv6-stable-7" url="packs/MechMagic/files/1.12.2Mods/Mods/appliedenergistics2-rv6-stable-7.jar" file="appliedenergistics2-rv6-stable-7.jar" md5="b8667d60a761d5b5ae3c8a15192f9e28" download="server" type="mods" />
+        <mod name="Applied Energistics 2" version="rv6-stable-7" url="packs/MechMagic/files/3.1.8/appliedenergistics2-rv6-stable-7.jar" file="appliedenergistics2-rv6-stable-7.jar" md5="b8667d60a761d5b5ae3c8a15192f9e28" download="server" type="mods"/>
         
-        <mod name="Aquaculture" version="1.12.2-1.6.8" url="packs/MechMagic/files/1.12.2Mods/Mods/Aquaculture-1.12.2-1.6.8.jar" file="Aquaculture-1.12.2-1.6.8.jar" md5="168ee7ded8fa21d49700b99e8617c79b" download="server" type="mods" />
+        <mod name="Aquaculture" version="1.12.2-1.6.8" url="packs/MechMagic/files/3.1.8/Aquaculture-1.12.2-1.6.8.jar" file="Aquaculture-1.12.2-1.6.8.jar" md5="168ee7ded8fa21d49700b99e8617c79b" download="server" type="mods"/>
         
-        <mod name="AstikorCarts" version="0.1.2.7" url="packs/MechMagic/files/1.12.2Mods/Mods/astikorcarts-1.12.2-0.1.2.7.jar" file="astikorcarts-1.12.2-0.1.2.7.jar" md5="af7be118e58fb1e205c33a7587a77eef" download="server" type="mods" />
+        <mod name="AstikorCarts" version="0.1.2.7" url="packs/MechMagic/files/3.1.8/astikorcarts-1.12.2-0.1.2.7.jar" file="astikorcarts-1.12.2-0.1.2.7.jar" md5="af7be118e58fb1e205c33a7587a77eef" download="server" type="mods"/>
         
-        <mod name="Astral Sorcery" version="1.12.2-1.10.23" url="packs/MechMagic/files/1.12.2Mods/Mods/astralsorcery-1.12.2-1.10.23.jar" file="astralsorcery-1.12.2-1.10.23.jar" md5="cecf61f829ba9ed5fa5a08f5b8c42ec5" download="server" type="mods" />
+        <mod name="Astral Sorcery" version="1.12.2-1.10.25" url="packs/MechMagic/files/3.1.8/astralsorcery-1.12.2-1.10.25.jar" file="astralsorcery-1.12.2-1.10.25.jar" md5="849615c1be2a01a437568e296efce14e" download="server" type="mods"/>
         
-        <mod name="Bauble Of Undying" version="1.0.0" url="packs/MechMagic/files/1.12.2Mods/Mods/BaubleOfUndying-1.12-1.0.1.jar" file="BaubleOfUndying-1.12-1.0.1.jar" md5="0b6b06faf3a2d923112f12fca74740bc" download="server" type="mods" />
+        <mod name="Bauble Of Undying" version="1.0.0" url="packs/MechMagic/files/3.1.8/BaubleOfUndying-1.12-1.0.1.jar" file="BaubleOfUndying-1.12-1.0.1.jar" md5="0b6b06faf3a2d923112f12fca74740bc" download="server" type="mods"/>
         
-        <mod name="Baubles" version="1.5.2" url="packs/MechMagic/files/1.12.2Mods/Mods/Baubles-1.12-1.5.2.jar" file="Baubles-1.12-1.5.2.jar" md5="944dec4ef3fbfd4d498d94a7047af201" download="server" type="mods" />
+        <mod name="Baubles" version="1.5.2" url="packs/MechMagic/files/3.1.8/Baubles-1.12-1.5.2.jar" file="Baubles-1.12-1.5.2.jar" md5="944dec4ef3fbfd4d498d94a7047af201" download="server" type="mods"/>
         
-        <mod name="Better Advancements" version="0.1.0" url="packs/MechMagic/files/1.12.2Mods/Mods/BetterAdvancements-1.12.2-0.1.0.77.jar" file="BetterAdvancements-1.12.2-0.1.0.77.jar" md5="9009a4d080caf4d31e4ef8edba1f90cf" download="server" type="mods" />
+        <mod name="Better Advancements" version="0.1.0" url="packs/MechMagic/files/3.1.8/BetterAdvancements-1.12.2-0.1.0.77.jar" file="BetterAdvancements-1.12.2-0.1.0.77.jar" md5="9009a4d080caf4d31e4ef8edba1f90cf" download="server" type="mods"/>
         
-        <mod name="Better Builder&apos;s Wands" version="0.11.1" url="packs/MechMagic/files/1.12.2Mods/Mods/BetterBuildersWands-1.12-0.11.1.24569d0d70.jar" file="BetterBuildersWands-1.12-0.11.1.24569d0d70.jar" md5="64763e14d31cdc21cedd4c4e85fbec73" download="server" type="mods" />
+        <mod name="Better Builder's Wands" version="0.11.1" url="packs/MechMagic/files/3.1.8/BetterBuildersWands-1.12-0.11.1.24569d0d70.jar" file="BetterBuildersWands-1.12-0.11.1.24569d0d70.jar" md5="64763e14d31cdc21cedd4c4e85fbec73" download="server" type="mods"/>
         
-        <mod name="BetterFps" version="1.4.8" url="packs/MechMagic/files/1.12.2Mods/Mods/BetterFps-1.4.8.jar" file="BetterFps-1.4.8.jar" md5="d36f4d3c0f96e99a9a1ad2e8eeda1fc4" download="server" type="mods" />
+        <mod name="BetterFps" version="BetterFps-1.4.8.jar" url="packs/MechMagic/files/3.1.8/BetterFps-1.4.8.jar" file="BetterFps-1.4.8.jar" md5="d36f4d3c0f96e99a9a1ad2e8eeda1fc4" download="server" type="mods"/>
         
-        <mod name="Better Placement" version="1.0.0-1" url="packs/MechMagic/files/1.12.2Mods/Mods/BetterPlacement-1.0.0-1.jar" file="BetterPlacement-1.0.0-1.jar" md5="f4518692cd397dd5beda3903289352f7" download="server" type="mods" />
+        <mod name="Better Placement" version="1.0.0-1" url="packs/MechMagic/files/3.1.8/BetterPlacement-1.0.0-1.jar" file="BetterPlacement-1.0.0-1.jar" md5="f4518692cd397dd5beda3903289352f7" download="server" type="mods"/>
         
-        <mod name="Blood Magic: Alchemical Wizardry" version="1.12.2-2.4.3-105" url="packs/MechMagic/files/1.12.2Mods/Mods/BloodMagic-1.12.2-2.4.3-105.jar" file="BloodMagic-1.12.2-2.4.3-105.jar" md5="90f67913247c8cf549836d724efc87fc" download="server" type="mods" />
+        <mod name="Blood Magic: Alchemical Wizardry" version="1.12.2-2.4.3-105" url="packs/MechMagic/files/3.1.8/BloodMagic-1.12.2-2.4.3-105.jar" file="BloodMagic-1.12.2-2.4.3-105.jar" md5="90f67913247c8cf549836d724efc87fc" download="server" type="mods"/>
         
-        <mod name="Botania" version="r1.10-363" url="packs/MechMagic/files/1.12.2Mods/Mods/Botania r1.10-363.jar" file="Botania r1.10-363.jar" md5="5ba76d3db9345fa9e398523bddda59f3" download="server" type="mods" />
+        <mod name="Botania" version="r1.10-363" url="packs/MechMagic/files/3.1.8/Botania r1.10-363.jar" file="Botania r1.10-363.jar" md5="5ba76d3db9345fa9e398523bddda59f3" download="server" type="mods"/>
         
-        <mod name="Crop-Eating Animals" version="1.12.2-1.4.1" url="packs/MechMagic/files/1.12.2Mods/Mods/ceanimals-1.12.2-1.4.1.jar" file="ceanimals-1.12.2-1.4.1.jar" md5="26ced96ca837b032e8e7437bae5217e2" download="server" type="mods" />
+        <mod name="Crop-Eating Animals" version="1.12.2-1.4.1" url="packs/MechMagic/files/3.1.8/ceanimals-1.12.2-1.4.1.jar" file="ceanimals-1.12.2-1.4.1.jar" md5="26ced96ca837b032e8e7437bae5217e2" download="server" type="mods"/>
         
-        <mod name="ChickenChunks" version="2.4.2.74" url="packs/MechMagic/files/1.12.2Mods/Mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar" file="ChickenChunks-1.12.2-2.4.2.74-universal.jar" md5="f6bf337a09fcfa19aedc840f19cac222" download="server" type="mods" />
+        <mod name="ChickenChunks" version="2.4.2.74" url="packs/MechMagic/files/3.1.8/ChickenChunks-1.12.2-2.4.2.74-universal.jar" file="ChickenChunks-1.12.2-2.4.2.74-universal.jar" md5="f6bf337a09fcfa19aedc840f19cac222" download="server" type="mods"/>
         
-        <mod name="Chisel" version="1.0.2.45" url="packs/MechMagic/files/1.12.2Mods/Mods/Chisel-MC1.12.2-1.0.2.45.jar" file="Chisel-MC1.12.2-1.0.2.45.jar" md5="54afc298f94e708f0e1cdf399200b2cb" download="server" type="mods" />
+        <mod name="Chisel" version="1.0.2.45" url="packs/MechMagic/files/3.1.8/Chisel-MC1.12.2-1.0.2.45.jar" file="Chisel-MC1.12.2-1.0.2.45.jar" md5="54afc298f94e708f0e1cdf399200b2cb" download="server" type="mods"/>
         
-        <mod name="Chisels &amp; Bits" version="14.33" url="packs/MechMagic/files/1.12.2Mods/Mods/chiselsandbits-14.33.jar" file="chiselsandbits-14.33.jar" md5="e056e23559965f2ebabf47aad0fe51a3" download="server" type="mods" />
+        <mod name="Chisels &amp; Bits" version="14.33" url="packs/MechMagic/files/3.1.8/chiselsandbits-14.33.jar" file="chiselsandbits-14.33.jar" md5="e056e23559965f2ebabf47aad0fe51a3" download="server" type="mods"/>
         
-        <mod name="Clay Bucket" version="1.1" url="packs/MechMagic/files/1.12.2Mods/Mods/ClayBucket-1.12-1.1.jar" file="ClayBucket-1.12-1.1.jar" md5="733de95339e32be159fba786ea4eb00a" download="server" type="mods" />
+        <mod name="Clay Bucket" version="1.1" url="packs/MechMagic/files/3.1.8/ClayBucket-1.12-1.1.jar" file="ClayBucket-1.12-1.1.jar" md5="733de95339e32be159fba786ea4eb00a" download="server" type="mods"/>
         
-        <mod name="Clock HUD" version="1.12-1.4.0" url="packs/MechMagic/files/1.12.2Mods/Mods/ClockHUD-1.12-1.4.0.jar" file="ClockHUD-1.12-1.4.0.jar" md5="ee9ed4fab6489c095bc3a0c0a623c5a3" download="server" type="mods" />
+        <mod name="Clock HUD" version="1.12-1.4.0" url="packs/MechMagic/files/3.1.8/ClockHUD-1.12-1.4.0.jar" file="ClockHUD-1.12-1.4.0.jar" md5="ee9ed4fab6489c095bc3a0c0a623c5a3" download="server" type="mods"/>
         
-        <mod name="CoFH World" version="1.4.0.1" url="packs/MechMagic/files/1.12.2Mods/Mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar" file="CoFHWorld-1.12.2-1.4.0.1-universal.jar" md5="f2bfd74e76b71bdee8a20a9243dd5cdf" download="server" type="mods" />
+        <mod name="CoFH World" version="1.4.0.1" url="packs/MechMagic/files/3.1.8/CoFHWorld-1.12.2-1.4.0.1-universal.jar" file="CoFHWorld-1.12.2-1.4.0.1-universal.jar" md5="f2bfd74e76b71bdee8a20a9243dd5cdf" download="server" type="mods"/>
         
-        <mod name="Colossal Chests" version="1.12.2-1.7.3" url="packs/MechMagic/files/1.12.2Mods/Mods/ColossalChests-1.12.2-1.7.3.jar" file="ColossalChests-1.12.2-1.7.3.jar" md5="6f692a7a9a54dc300edb4d9403fcdcf5" download="server" type="mods" />
+        <mod name="Colossal Chests" version="1.12.2-1.7.3" url="packs/MechMagic/files/3.1.8/ColossalChests-1.12.2-1.7.3.jar" file="ColossalChests-1.12.2-1.7.3.jar" md5="6f692a7a9a54dc300edb4d9403fcdcf5" download="server" type="mods"/>
         
-        <mod name="Cooking for Blockheads" version="6.5.0" url="packs/MechMagic/files/1.12.2Mods/Mods/CookingForBlockheads_1.12.2-6.5.0.jar" file="CookingForBlockheads_1.12.2-6.5.0.jar" md5="f1067937f350aba63a80089093b66724" download="server" type="mods" />
+        <mod name="Cooking for Blockheads" version="6.5.0" url="packs/MechMagic/files/3.1.8/CookingForBlockheads_1.12.2-6.5.0.jar" file="CookingForBlockheads_1.12.2-6.5.0.jar" md5="f1067937f350aba63a80089093b66724" download="server" type="mods"/>
         
-        <mod name="CosmeticArmorReworked" version="1.12.2-v4b" url="packs/MechMagic/files/1.12.2Mods/Mods/CosmeticArmorReworked-1.12.2-v4b.jar" file="CosmeticArmorReworked-1.12.2-v4b.jar" md5="3f21387d3269fe21000d74f12e25260c" download="server" type="mods" />
+        <mod name="CosmeticArmorReworked" version="1.12.2-v5a" url="packs/MechMagic/files/3.1.8/CosmeticArmorReworked-1.12.2-v5a.jar" file="CosmeticArmorReworked-1.12.2-v5a.jar" md5="18d7753f69e6f8fed9350b4d908008a9" download="server" type="mods"/>
         
-        <mod name="CraftTweaker2" version="1.12-4.1.20" url="packs/MechMagic/files/1.12.2Mods/Mods/CraftTweaker2-1.12-4.1.20.jar" file="CraftTweaker2-1.12-4.1.20.jar" md5="521297c5e2459dd232a72dacffa45a0b" download="server" type="mods" />
+        <mod name="CraftTweaker2" version="1.12-4.1.20.574" url="packs/MechMagic/files/3.1.8/CraftTweaker2-1.12-4.1.20.574.jar" file="CraftTweaker2-1.12-4.1.20.574.jar" md5="0e6260e528f35e77ba857972d65ef058" download="server" type="mods"/>
         
-        <mod name="CTM" version="MC1.12.2-1.0.2.31" url="packs/MechMagic/files/1.12.2Mods/Mods/CTM-MC1.12.2-1.0.2.31.jar" file="CTM-MC1.12.2-1.0.2.31.jar" md5="77a8bb5486c97e3eaa6f45e5bd768864" download="server" type="mods" />
+        <mod name="CTM" version="MC1.12.2-1.0.2.31" url="packs/MechMagic/files/3.1.8/CTM-MC1.12.2-1.0.2.31.jar" file="CTM-MC1.12.2-1.0.2.31.jar" md5="77a8bb5486c97e3eaa6f45e5bd768864" download="server" type="mods"/>
         
-        <mod name="Custom Main Menu" version="2.0.9.1" url="packs/MechMagic/files/1.12.2Mods/Mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar" file="CustomMainMenu-MC1.12.2-2.0.9.1.jar" md5="c12200ad89f9399d5bdcbe9da7900bb9" download="server" type="mods" />
+        <mod name="Custom Main Menu" version="2.0.9.1" url="packs/MechMagic/files/3.1.8/CustomMainMenu-MC1.12.2-2.0.9.1.jar" file="CustomMainMenu-MC1.12.2-2.0.9.1.jar" md5="c12200ad89f9399d5bdcbe9da7900bb9" download="server" type="mods"/>
         
-        <mod name="CustomNPCs" version="1.12.2-(01Oct19)" url="packs/MechMagic/files/1.12.2Mods/Mods/CustomNPCs_1.12.2-(01Oct19).jar" file="CustomNPCs_1.12.2-(01Oct19).jar" md5="e8f289624d99a67ee3b78c6524b96b45" download="server" type="mods" />
+        <mod name="CustomNPCs" version="1.12.2-(05Jul20)" url="packs/MechMagic/files/3.1.8/CustomNPCs_1.12.2-(05Jul20).jar" file="CustomNPCs_1.12.2-(05Jul20).jar" md5="3ab1a5c4b069d574631da5bc1880ebf7" download="server" type="mods"/>
         
-        <mod name="Cyclic" version="1.19.20" url="packs/MechMagic/files/1.12.2Mods/Mods/Cyclic-1.12.2-1.19.21.jar" file="Cyclic-1.12.2-1.19.21.jar" md5="9cefc761c7eeae10ec3cc2aa602339e9" download="server" type="mods" />
+        <mod name="Cyclic" version="1.20.3" url="packs/MechMagic/files/3.1.8/Cyclic-1.12.2-1.20.3.jar" file="Cyclic-1.12.2-1.20.3.jar" md5="3ffda672daf3ffb9790ffeff9428cdee" download="server" type="mods"/>
         
-        <mod name="Bailey&apos;s Dailies" version="1.12.2-6" url="packs/MechMagic/files/1.12.2Mods/Mods/dailies-1.12.2-6.jar" file="dailies-1.12.2-6.jar" md5="57287cf8d9e548e91de41e503058b76d" download="server" type="mods" />
+        <mod name="Bailey's Dailies" version="1.12.2-6" url="packs/MechMagic/files/3.1.8/dailies-1.12.2-6.jar" file="dailies-1.12.2-6.jar" md5="57287cf8d9e548e91de41e503058b76d" download="server" type="mods"/>
         
-        <mod name="Dark Utilities" version="1.8.230" url="packs/MechMagic/files/1.12.2Mods/Mods/DarkUtils-1.12.2-1.8.230.jar" file="DarkUtils-1.12.2-1.8.230.jar" md5="672e81d68ebdf0ac8a4cd9f78a38a770" download="server" type="mods" />
+        <mod name="Dark Utilities" version="1.8.230" url="packs/MechMagic/files/3.1.8/DarkUtils-1.12.2-1.8.230.jar" file="DarkUtils-1.12.2-1.8.230.jar" md5="672e81d68ebdf0ac8a4cd9f78a38a770" download="server" type="mods"/>
         
-        <mod name="Draconic Evolution" version="1.12.2-2.3.25.351" url="packs/MechMagic/files/1.12.2Mods/Mods/Draconic-Evolution-1.12.2-2.3.25.351-universal.jar" file="Draconic-Evolution-1.12.2-2.3.25.351-universal.jar" md5="a23c263063b8e110f8c053c148ba6d2d" download="server" type="mods" />
+        <mod name="Draconic Evolution" version="1.12.2-2.3.25.351" url="packs/MechMagic/files/3.1.8/Draconic-Evolution-1.12.2-2.3.25.351-universal.jar" file="Draconic-Evolution-1.12.2-2.3.25.351-universal.jar" md5="a23c263063b8e110f8c053c148ba6d2d" download="server" type="mods"/>
         
-        <mod name="Dynamic Surroundings" version="1.12.2-3.6.0.2" url="packs/MechMagic/files/1.12.2Mods/Mods/DynamicSurroundings-1.12.2-3.6.0.2.jar" file="DynamicSurroundings-1.12.2-3.6.0.2.jar" md5="b587a5c7a4791894a3531577e4bbec81" download="server" type="mods" />
+        <mod name="Dynamic Surroundings" version="1.12.2-3.6.1.0" url="packs/MechMagic/files/3.1.8/DynamicSurroundings-1.12.2-3.6.1.0.jar" file="DynamicSurroundings-1.12.2-3.6.1.0.jar" md5="1a0d50a34941865ff091a492e0612502" download="server" type="mods"/>
         
-        <mod name="Embers Rekindled" version="1.13-hotfix2" url="packs/MechMagic/files/1.12.2Mods/Mods/EmbersRekindled-1.13-hotfix2.jar" file="EmbersRekindled-1.13-hotfix2.jar" md5="4710702cd0ad48461b15c169589d3dbc" download="server" type="mods" />
+        <mod name="Embers Rekindled" version="1.14-hotfix" url="packs/MechMagic/files/3.1.8/EmbersRekindled-1.14-hotfix.jar" file="EmbersRekindled-1.14-hotfix.jar" md5="ae6df8bc5f7ceb1f427ddeb69283e1d2" download="server" type="mods"/>
         
-        <mod name="Enchanting Table - Lapis remainds in" version="1.1.3" url="packs/MechMagic/files/1.12.2Mods/Mods/EnchantingTable-1.12-1.1.3.jar" file="EnchantingTable-1.12-1.1.3.jar" md5="fbfd70a18d887fd9bc08dd25ff91d61a" download="server" type="mods" />
+        <mod name="Enchanting Table - Lapis remainds in" version="1.1.3" url="packs/MechMagic/files/1.12.2Mods/Mods/EnchantingTable-1.12-1.1.3.jar" file="EnchantingTable-1.12-1.1.3.jar" md5="fbfd70a18d887fd9bc08dd25ff91d61a" download="server" type="mods"/>
         
-        <mod name="Enderfuge" version="1.4.11" url="packs/MechMagic/files/1.12.2Mods/Mods/Enderfuge-1.12.2-1.4.11.jar" file="Enderfuge-1.12.2-1.4.11.jar" md5="20cf08ff1d8d83dd50697a2e8b6a4d34" download="server" type="mods" />
+        <mod name="Enderfuge" version="1.6.2" url="packs/MechMagic/files/3.1.8/Enderfuge-1.12.2-1.6.2.jar" file="Enderfuge-1.12.2-1.6.2.jar" md5="8e3cb75bd78cce8886eff0b898917a0c" download="server" type="mods"/>
         
-        <mod name="Ender IO" version="5.1.55" url="packs/MechMagic/files/1.12.2Mods/Mods/EnderIO-1.12.2-5.1.55.jar" file="EnderIO-1.12.2-5.1.55.jar" md5="8495577037840e0cacbc1c0c5914d459" download="server" type="mods" />
+        <mod name="Ender IO" version="5.2.59" url="packs/MechMagic/files/3.1.8/EnderIO-1.12.2-5.2.59.jar" file="EnderIO-1.12.2-5.2.59.jar" md5="d86fd6f34b7b93df17d1aeebdf2389e3" download="server" type="mods"/>
         
-        <mod name="EnderStorage" version="2.4.6.137" url="packs/MechMagic/files/1.12.2Mods/Mods/EnderStorage-1.12.2-2.4.6.137-universal.jar" file="EnderStorage-1.12.2-2.4.6.137-universal.jar" md5="c66000e24e8c11675db554c644b31bda" download="server" type="mods" />
+        <mod name="EnderStorage" version="2.4.6.137" url="packs/MechMagic/files/3.1.8/EnderStorage-1.12.2-2.4.6.137-universal.jar" file="EnderStorage-1.12.2-2.4.6.137-universal.jar" md5="c66000e24e8c11675db554c644b31bda" download="server" type="mods"/>
         
-        <mod name="Ender Utilities" version="0.7.14" url="packs/MechMagic/files/1.12.2Mods/Mods/enderutilities-1.12.2-0.7.14.jar" file="enderutilities-1.12.2-0.7.14.jar" md5="6b53bc105612d25116d440be9b2d5c60" download="server" type="mods" />
+        <mod name="Ender Utilities" version="0.7.15" url="packs/MechMagic/files/3.1.8/enderutilities-1.12.2-0.7.15.jar" file="enderutilities-1.12.2-0.7.15.jar" md5="e7db5d70a7f218709dac858cb994ea93" download="server" type="mods"/>
         
-        <mod name="EvilCraft" version="1.12.2-0.10.78" url="packs/MechMagic/files/1.12.2Mods/Mods/EvilCraft-1.12.2-0.10.78.jar" file="EvilCraft-1.12.2-0.10.78.jar" md5="42b80a6688b5bc6d24f4f197e43890f2" download="server" type="mods" />
+        <mod name="EvilCraft" version="1.12.2-0.10.78" url="packs/MechMagic/files/3.1.8/EvilCraft-1.12.2-0.10.78.jar" file="EvilCraft-1.12.2-0.10.78.jar" md5="42b80a6688b5bc6d24f4f197e43890f2" download="server" type="mods"/>
         
-        <mod name="Extra Cells 2" version="2.6.5" url="packs/MechMagic/files/1.12.2Mods/Mods/ExtraCells-1.12.2-2.6.5.jar" file="ExtraCells-1.12.2-2.6.5.jar" md5="a96d3b8fd1cc8b41fdde9469bacc5c99" download="server" type="mods" />
+        <mod name="Extra Cells 2" version="2.6.5" url="packs/MechMagic/files/3.1.8/ExtraCells-1.12.2-2.6.5.jar" file="ExtraCells-1.12.2-2.6.5.jar" md5="a96d3b8fd1cc8b41fdde9469bacc5c99" download="server" type="mods"/>
         
-        <mod name="Extra Rails" version="1.12-1.3.0" url="packs/MechMagic/files/1.12.2Mods/Mods/ExtraRails-1.12-1.3.0.jar" file="ExtraRails-1.12-1.3.0.jar" md5="c8e2e99c7559b775283f867e8e436205" download="server" type="mods" />
+        <mod name="Extra Rails" version="1.12-1.3.0" url="packs/MechMagic/files/3.1.8/ExtraRails-1.12-1.3.0.jar" file="ExtraRails-1.12-1.3.0.jar" md5="c8e2e99c7559b775283f867e8e436205" download="server" type="mods"/>
         
-        <mod name="Extra Utilities 2" version="${version}" url="packs/MechMagic/files/1.12.2Mods/Mods/extrautils2-1.12-1.9.9.jar" file="extrautils2-1.12-1.9.9.jar" md5="1ea591619e6d5204bf077214868772ef" download="server" type="mods" />
+        <mod name="Extra Utilities 2" version="${version}" url="packs/MechMagic/files/3.1.8/extrautils2-1.12-1.9.9.jar" file="extrautils2-1.12-1.9.9.jar" md5="1ea591619e6d5204bf077214868772ef" download="server" type="mods"/>
         
-        <mod name="Extreme Reactors" version="1.12.2-0.4.5.67" url="packs/MechMagic/files/1.12.2Mods/Mods/ExtremeReactors-1.12.2-0.4.5.67.jar" file="ExtremeReactors-1.12.2-0.4.5.67.jar" md5="92e5cc48aca43add940af096e7694141" download="server" type="mods" />
+        <mod name="Extreme Reactors" version="1.12.2-0.4.5.67" url="packs/MechMagic/files/3.1.8/ExtremeReactors-1.12.2-0.4.5.67.jar" file="ExtremeReactors-1.12.2-0.4.5.67.jar" md5="92e5cc48aca43add940af096e7694141" download="server" type="mods"/>
         
-        <mod name="Fast Leaf Decay" version="v14" url="packs/MechMagic/files/1.12.2Mods/Mods/FastLeafDecay-v14.jar" file="FastLeafDecay-v14.jar" md5="18096ffb7f58d94f8e5a7bf2ff160f0f" download="server" type="mods" />
+        <mod name="Fast Leaf Decay" version="v14" url="packs/MechMagic/files/3.1.8/FastLeafDecay-v14.jar" file="FastLeafDecay-v14.jar" md5="18096ffb7f58d94f8e5a7bf2ff160f0f" download="server" type="mods"/>
         
-        <mod name="Featured Servers" version="1.12-1.0.6" url="packs/MechMagic/files/1.12.2Mods/Mods/FeaturedServers-1.12-1.0.6.jar" file="FeaturedServers-1.12-1.0.6.jar" md5="4f3a2c847b38321d900c986f663f4068" download="server" type="mods" />
+        <mod name="Featured Servers" version="1.12-1.0.6" url="packs/MechMagic/files/3.1.8/FeaturedServers-1.12-1.0.6.jar" file="FeaturedServers-1.12-1.0.6.jar" md5="4f3a2c847b38321d900c986f663f4068" download="server" type="mods"/>
         
-        <mod name="Flexible Tools" version="1.12.2-1.2.12" url="packs/MechMagic/files/1.12.2Mods/Mods/flexibletools-1.12.2-1.2.12.jar" file="flexibletools-1.12.2-1.2.12.jar" md5="5fc8ab2fc3f677355d6319dff57f5579" download="server" type="mods" />
+        <mod name="Flexible Tools" version="1.12.2-1.2.12" url="packs/MechMagic/files/3.1.8/flexibletools-1.12.2-1.2.12.jar" file="flexibletools-1.12.2-1.2.12.jar" md5="5fc8ab2fc3f677355d6319dff57f5579" download="server" type="mods"/>
         
-        <mod name="FoamFix" version="0.10.10" url="packs/MechMagic/files/1.12.2Mods/Mods/foamfix-0.10.10-1.12.2.jar" file="foamfix-0.10.10-1.12.2.jar" md5="bba94f1ee252fcfbd2d52779f5c2f2b1" download="server" type="mods" />
+        <mod name="FoamFix" version="@VERSION@" url="packs/MechMagic/files/3.1.8/foamfix-0.10.10-1.12.2.jar" file="foamfix-0.10.10-1.12.2.jar" md5="bba94f1ee252fcfbd2d52779f5c2f2b1" download="server" type="mods"/>
         
-        <mod name="Forge Multipart CBE" version="2.6.2.83" url="packs/MechMagic/files/1.12.2Mods/Mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar" file="ForgeMultipart-1.12.2-2.6.2.83-universal.jar" md5="e45e04bc38dc373aaef0415c2e2d441d" download="server" type="mods" />
+        <mod name="Forge Multipart CBE" version="2.6.2.83" url="packs/MechMagic/files/3.1.8/ForgeMultipart-1.12.2-2.6.2.83-universal.jar" file="ForgeMultipart-1.12.2-2.6.2.83-universal.jar" md5="e45e04bc38dc373aaef0415c2e2d441d" download="server" type="mods"/>
         
-        <mod name="Friendly Fire" version="1.5.10" url="packs/MechMagic/files/1.12.2Mods/Mods/FriendlyFire-1.12.2-1.5.10.jar" file="FriendlyFire-1.12.2-1.5.10.jar" md5="6e6eed5f8a766f3dd5a388385279b4fb" download="server" type="mods" />
+        <mod name="Friendly Fire" version="1.5.10" url="packs/MechMagic/files/3.1.8/FriendlyFire-1.12.2-1.5.10.jar" file="FriendlyFire-1.12.2-1.5.10.jar" md5="6e6eed5f8a766f3dd5a388385279b4fb" download="server" type="mods"/>
         
-        <mod name="FTB Utilities" version="5.4.0.124" url="packs/MechMagic/files/1.12.2Mods/Mods/FTBUtilities-5.4.0.124.jar" file="FTBUtilities-5.4.0.124.jar" md5="bccfb63dcd1a3ea196a748f1138ab758" download="server" type="mods" />
+        <mod name="FTB Utilities" version="5.4.1.130" url="packs/MechMagic/files/3.1.8/FTBUtilities-5.4.1.130.jar" file="FTBUtilities-5.4.1.130.jar" md5="542a6feecd445ebaa54d46d45f78f06e" download="server" type="mods"/>
         
-        <mod name="Fuel Canister" version="1.1.3" url="packs/MechMagic/files/1.12.2Mods/Mods/FuelCanister[1.12.x]-1.1.3.jar" file="FuelCanister[1.12.x]-1.1.3.jar" md5="6bd1e0d54d44cb9bae2ed34844f83e02" download="server" type="mods" />
+        <mod name="Fuel Canister" version="1.1.3" url="packs/MechMagic/files/3.1.8/FuelCanister[1.12.x]-1.1.3.jar" file="FuelCanister[1.12.x]-1.1.3.jar" md5="6bd1e0d54d44cb9bae2ed34844f83e02" download="server" type="mods"/>
         
-        <mod name="Gravel Ores" version="1.8" url="packs/MechMagic/files/1.12.2Mods/Mods/gravelores-1.8.jar" file="gravelores-1.8.jar" md5="e12e60a8e3a928ecb06c07af41fd1c55" download="server" type="mods" />
+        <mod name="Gravel Ores" version="1.8" url="packs/MechMagic/files/3.1.8/gravelores-1.8.jar" file="gravelores-1.8.jar" md5="e12e60a8e3a928ecb06c07af41fd1c55" download="server" type="mods"/>
         
-        <mod name="Harvest" version="1.12-1.2.7-20" url="packs/MechMagic/files/1.12.2Mods/Mods/Harvest-1.12-1.2.7-20.jar" file="Harvest-1.12-1.2.7-20.jar" md5="8814b7b1f198b8f8c798bd8c81f59b3c" download="server" type="mods" />
+        <mod name="Harvest" version="1.12-1.2.7-20" url="packs/MechMagic/files/3.1.8/Harvest-1.12-1.2.7-20.jar" file="Harvest-1.12-1.2.7-20.jar" md5="8814b7b1f198b8f8c798bd8c81f59b3c" download="server" type="mods"/>
         
-        <mod name="Hex Lands" version="1.8.1" url="packs/MechMagic/files/1.12.2Mods/Mods/hexlands-1.9.0.jar" file="hexlands-1.9.0.jar" md5="2ee0dcde54a965b464b550036c0d3857" download="server" type="mods" />
+        <mod name="Hex Lands" version="1.8.1" url="packs/MechMagic/files/3.1.8/hexlands-1.9.0.jar" file="hexlands-1.9.0.jar" md5="2ee0dcde54a965b464b550036c0d3857" download="server" type="mods"/>
         
-        <mod name="Horse Power" version="2.6.4.74" url="packs/MechMagic/files/1.12.2Mods/Mods/HorsePower-1.12.2-2.6.4.74.jar" file="HorsePower-1.12.2-2.6.4.74.jar" md5="b30f2903ae697af120902c789c8ea76b" download="server" type="mods" />
+        <mod name="Horse Power" version="2.6.4.74" url="packs/MechMagic/files/3.1.8/HorsePower-1.12.2-2.6.4.74.jar" file="HorsePower-1.12.2-2.6.4.74.jar" md5="b30f2903ae697af120902c789c8ea76b" download="server" type="mods"/>
         
-        <mod name="Immersive Engineering" version="0.12-92" url="packs/MechMagic/files/1.12.2Mods/Mods/ImmersiveEngineering-0.12-92.jar" file="ImmersiveEngineering-0.12-92.jar" md5="732d7fb7d99480fc4a8885667567b54b" download="server" type="mods" />
+        <mod name="Immersive Engineering" version="0.12-98" url="packs/MechMagic/files/3.1.8/ImmersiveEngineering-0.12-98.jar" file="ImmersiveEngineering-0.12-98.jar" md5="affce9a7f7cb9ab257135da89314e07e" download="server" type="mods"/>
         
-        <mod name="Immersive Petroleum" version="1.1.9" url="packs/MechMagic/files/1.12.2Mods/Mods/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods" />
+        <mod name="Immersive Petroleum" version="1.1.9" url="packs/MechMagic/files/3.1.8/immersivepetroleum-1.12.2-1.1.9.jar" file="immersivepetroleum-1.12.2-1.1.9.jar" md5="57ba127778e579d10d705f9f8359d2e0" download="server" type="mods"/>
         
-        <mod name="Immersive Tech" version="1.3.10" url="packs/MechMagic/files/1.12.2Mods/Mods/immersivetech-1.12-1.3.10.jar" file="immersivetech-1.12-1.3.10.jar" md5="3be088e1e5b1bea50f04cdfb4082a528" download="server" type="mods" />
+        <mod name="Immersive Tech" version="1.3.10" url="packs/MechMagic/files/3.1.8/immersivetech-1.12-1.3.10.jar" file="immersivetech-1.12-1.3.10.jar" md5="3be088e1e5b1bea50f04cdfb4082a528" download="server" type="mods"/>
         
-        <mod name="InControl" version="1.12-3.9.10" url="packs/MechMagic/files/1.12.2Mods/Mods/incontrol-1.12-3.9.10.jar" file="incontrol-1.12-3.9.10.jar" md5="01ea81ed7e5961ae622b06f50e479e25" download="server" type="mods" />
+        <mod name="InControl" version="1.12-3.9.10" url="packs/MechMagic/files/3.1.8/incontrol-1.12-3.9.10.jar" file="incontrol-1.12-3.9.10.jar" md5="01ea81ed7e5961ae622b06f50e479e25" download="server" type="mods"/>
         
-        <mod name="Industrial Foregoing" version="1.12.13" url="packs/MechMagic/files/1.12.2Mods/Mods/industrialforegoing-1.12.2-1.12.13-237.jar" file="industrialforegoing-1.12.2-1.12.13-237.jar" md5="a9330399f14295d90e4ec3b5bb93f81f" download="server" type="mods" />
+        <mod name="Industrial Foregoing" version="1.12.13" url="packs/MechMagic/files/3.1.8/industrialforegoing-1.12.2-1.12.13-237.jar" file="industrialforegoing-1.12.2-1.12.13-237.jar" md5="a9330399f14295d90e4ec3b5bb93f81f" download="server" type="mods"/>
         
-        <mod name="InitialInventory" version="3.0.0" url="packs/MechMagic/files/1.12.2Mods/Mods/InitialInventory-3.0.0.jar" file="InitialInventory-3.0.0.jar" md5="44a3ebc29fe9531ec290e292d07d7d84" download="server" type="mods" />
+        <mod name="InitialInventory" version="3.0.0" url="packs/MechMagic/files/3.1.8/InitialInventory-3.0.0.jar" file="InitialInventory-3.0.0.jar" md5="44a3ebc29fe9531ec290e292d07d7d84" download="server" type="mods"/>
         
-        <mod name="InstantUnify" version="1.12.2-1.1.2" url="packs/MechMagic/files/1.12.2Mods/Mods/instantunify-1.12.2-1.1.2.jar" file="instantunify-1.12.2-1.1.2.jar" md5="edd6718ffee3f11039c146d0cba47424" download="server" type="mods" />
+        <mod name="InstantUnify" version="1.12.2-1.1.2" url="packs/MechMagic/files/3.1.8/instantunify-1.12.2-1.1.2.jar" file="instantunify-1.12.2-1.1.2.jar" md5="edd6718ffee3f11039c146d0cba47424" download="server" type="mods"/>
         
-<mod name="Integrated Dynamics" version="1.12.2-1.1.4" url="packs/MechMagic/files/1.12.2Mods/Mods/IntegratedDynamics-1.12.2-1.1.4.jar" file="IntegratedDynamics-1.12.2-1.1.4.jar" md5="e7da934572ec5e191f391bda613b64e7" download="server" type="mods" />
+<mod name="Integrated Dynamics" version="1.12.2-1.1.7" url="packs/MechMagic/files/3.1.8/IntegratedDynamics-1.12.2-1.1.7.jar" file="IntegratedDynamics-1.12.2-1.1.7.jar" md5="999a5c7ec247e79c3eb5746b59e2924f" download="server" type="mods"/>
         
-        <mod name="Integration Foregoing" version="1.12.2-1.10" url="packs/MechMagic/files/1.12.2Mods/Mods/IntegrationForegoing-1.12.2-1.10.jar" file="IntegrationForegoing-1.12.2-1.10.jar" md5="93c64021954444ac444ca26c5ee5095a" download="server" type="mods" />
+        <mod name="Integration Foregoing" version="1.12.2-1.10" url="packs/MechMagic/files/3.1.8/IntegrationForegoing-1.12.2-1.10.jar" file="IntegrationForegoing-1.12.2-1.10.jar" md5="93c64021954444ac444ca26c5ee5095a" download="server" type="mods"/>
         
-        <mod name="Iron Backpacks" version="1.12.2-3.0.8-12" url="packs/MechMagic/files/1.12.2Mods/Mods/IronBackpacks-1.12.2-3.0.8-12.jar" file="IronBackpacks-1.12.2-3.0.8-12.jar" md5="9fd50b1827b711704c69789aa94ac2ca" download="server" type="mods" />
+        <mod name="Iron Backpacks" version="1.12.2-3.0.8-12" url="packs/MechMagic/files/3.1.8/IronBackpacks-1.12.2-3.0.8-12.jar" file="IronBackpacks-1.12.2-3.0.8-12.jar" md5="9fd50b1827b711704c69789aa94ac2ca" download="server" type="mods"/>
         
-        <mod name="Iron Chest" version="7.0.72.847" url="packs/MechMagic/files/1.12.2Mods/Mods/ironchest-1.12.2-7.0.72.847.jar" file="ironchest-1.12.2-7.0.72.847.jar" md5="743179bc3a8f50751efbb019acc759a9" download="server" type="mods" />
+        <mod name="Iron Chest" version="7.0.72.847" url="packs/MechMagic/files/3.1.8/ironchest-1.12.2-7.0.72.847.jar" file="ironchest-1.12.2-7.0.72.847.jar" md5="743179bc3a8f50751efbb019acc759a9" download="server" type="mods"/>
         
-        <mod name="Iron Jetpacks" version="1.1.0" url="packs/MechMagic/files/1.12.2Mods/Mods/IronJetpacks-1.12-2-1.1.0.jar" file="IronJetpacks-1.12-2-1.1.0.jar" md5="4ec9762e495c500023656d612dc195b3" download="server" type="mods" />
+        <mod name="Iron Jetpacks" version="1.1.0" url="packs/MechMagic/files/3.1.8/IronJetpacks-1.12-2-1.1.0.jar" file="IronJetpacks-1.12-2-1.1.0.jar" md5="4ec9762e495c500023656d612dc195b3" download="server" type="mods"/>
         
-        <mod name="Just Enough Items" version="4.15.0.291" url="packs/MechMagic/files/1.12.2Mods/Mods/jei_1.12.2-4.15.0.291.jar" file="jei_1.12.2-4.15.0.291.jar" md5="cfdbfecefb1bdc5a3fbbcecbfecb0545" download="server" type="mods" />
+        <mod name="Just Enough Items" version="4.15.0.296" url="packs/MechMagic/files/3.1.8/jei_1.12.2-4.15.0.296.jar" file="jei_1.12.2-4.15.0.296.jar" md5="07fd20e0d7197fa48202d2d5b8d34e34" download="server" type="mods"/>
         
-        <mod name="JEI Integration" version="1.5.1.36" url="packs/MechMagic/files/1.12.2Mods/Mods/jeiintegration_1.12.2-1.5.1.36.jar" file="jeiintegration_1.12.2-1.5.1.36.jar" md5="de73cdc5de95a2685e50d90f01c03a50" download="server" type="mods" />
+        <mod name="JEI Integration" version="1.6.0" url="packs/MechMagic/files/3.1.8/jeiintegration_1.12.2-1.6.0.jar" file="jeiintegration_1.12.2-1.6.0.jar" md5="591f2eef8dc65ebc6850bce0acd88f41" download="server" type="mods"/>
         
-        <mod name="Just Enough Resources" version="0.9.2.60" url="packs/MechMagic/files/1.12.2Mods/Mods/JustEnoughResources-1.12.2-0.9.2.60.jar" file="JustEnoughResources-1.12.2-0.9.2.60.jar" md5="87a4666549a60d8fb423883dd4ee6232" download="server" type="mods" />
+        <mod name="Just Enough Resources" version="0.9.2.60" url="packs/MechMagic/files/3.1.8/JustEnoughResources-1.12.2-0.9.2.60.jar" file="JustEnoughResources-1.12.2-0.9.2.60.jar" md5="87a4666549a60d8fb423883dd4ee6232" download="server" type="mods"/>
         
-        <mod name="JustTheTips" version="1.12-1.0.1.1" url="packs/MechMagic/files/1.12.2Mods/Mods/justthetips-1.12-1.0.1.1.jar" file="justthetips-1.12-1.0.1.1.jar" md5="ff6981ee0d3bb5fca906a95742676eac" download="server" type="mods" />
+        <mod name="JustTheTips" version="1.12-1.0.1.1" url="packs/MechMagic/files/3.1.8/justthetips-1.12-1.0.1.1.jar" file="justthetips-1.12-1.0.1.1.jar" md5="ff6981ee0d3bb5fca906a95742676eac" download="server" type="mods"/>
         
-        <mod name="Long Fall Boots" version="1.2.1a" url="packs/MechMagic/files/1.12.2Mods/Mods/longfallboots-1.2.1b.jar" file="longfallboots-1.2.1b.jar" md5="7c44fa1b65f8a08661187af979eeb47a" download="server" type="mods" />
+        <mod name="Long Fall Boots" version="1.2.1a" url="packs/MechMagic/files/3.1.8/longfallboots-1.2.1b.jar" file="longfallboots-1.2.1b.jar" md5="7c44fa1b65f8a08661187af979eeb47a" download="server" type="mods"/>
         
-        <mod name="Magical Psi" version="1.3.2" url="packs/MechMagic/files/1.12.2Mods/Mods/MagicalPsi-1.3.2.jar" file="MagicalPsi-1.3.2.jar" md5="54cc46796b7cb337077758605bb4f8c3" download="server" type="mods" />
+        <mod name="Magical Psi" version="1.3.2" url="packs/MechMagic/files/3.1.8/MagicalPsi-1.3.2.jar" file="MagicalPsi-1.3.2.jar" md5="54cc46796b7cb337077758605bb4f8c3" download="server" type="mods"/>
         
-        <mod name="MineTweakerRecipeMaker" version="1.2.2.30" url="packs/MechMagic/files/1.12.2Mods/Mods/MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar" file="MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar" md5="ae0a7fa4d861f50140495de94aaf98f6" download="server" type="mods" />
+        <mod name="MineTweakerRecipeMaker" version="1.2.2.30" url="packs/MechMagic/files/3.1.8/MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar" file="MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar" md5="ae0a7fa4d861f50140495de94aaf98f6" download="server" type="mods"/>
         
-        <mod name="Mod Name Tooltip" version="1.10.1" url="packs/MechMagic/files/1.12.2Mods/Mods/modnametooltip_1.12.2-1.10.1.jar" file="modnametooltip_1.12.2-1.10.1.jar" md5="e36854d3c58af598ab3ce08d6cf0c760" download="server" type="mods" />
+        <mod name="Mod Name Tooltip" version="1.10.1" url="packs/MechMagic/files/3.1.8/modnametooltip_1.12.2-1.10.1.jar" file="modnametooltip_1.12.2-1.10.1.jar" md5="e36854d3c58af598ab3ce08d6cf0c760" download="server" type="mods"/>
         
-        <mod name="Mod Tweaker" version="4.0.18" url="packs/MechMagic/files/1.12.2Mods/Mods/modtweaker-4.0.18.jar" file="modtweaker-4.0.18.jar" md5="d117e26e6b578b18d25848f578e86c3b" download="server" type="mods" />
+        <mod name="Mod Tweaker" version="4.0.18" url="packs/MechMagic/files/3.1.8/modtweaker-4.0.18.jar" file="modtweaker-4.0.18.jar" md5="d117e26e6b578b18d25848f578e86c3b" download="server" type="mods"/>
         
-        <mod name="Monk Mod" version="1.4" url="packs/MechMagic/files/1.12.2Mods/Mods/monk-mod-1.4.jar" file="monk-mod-1.4.jar" md5="3b600199b6c0c620905eb87fcf7f74f6" download="server" type="mods" />
+        <mod name="Monk Mod" version="1.4" url="packs/MechMagic/files/3.1.8/monk-mod-1.4.jar" file="monk-mod-1.4.jar" md5="3b600199b6c0c620905eb87fcf7f74f6" download="server" type="mods"/>
         
-        <mod name="More Furnaces" version="1.12.2-1.10.6" url="packs/MechMagic/files/1.12.2Mods/Mods/MoreFurnaces-1.12.2-1.10.6.jar" file="MoreFurnaces-1.12.2-1.10.6.jar" md5="d0531330b15f54cc26776ff22936ae59" download="server" type="mods" />
+        <mod name="More Furnaces" version="1.12.2-1.10.6" url="packs/MechMagic/files/3.1.8/MoreFurnaces-1.12.2-1.10.6.jar" file="MoreFurnaces-1.12.2-1.10.6.jar" md5="d0531330b15f54cc26776ff22936ae59" download="server" type="mods"/>
         
-        <mod name="MoreOverlays" version="1.15.1" url="packs/MechMagic/files/1.12.2Mods/Mods/moreoverlays-1.15.1-mc1.12.2.jar" file="moreoverlays-1.15.1-mc1.12.2.jar" md5="7b5200f51245b61ef149f7a33860e930" download="server" type="mods" />
+        <mod name="MoreOverlays" version="1.15.1" url="packs/MechMagic/files/3.1.8/moreoverlays-1.15.1-mc1.12.2.jar" file="moreoverlays-1.15.1-mc1.12.2.jar" md5="7b5200f51245b61ef149f7a33860e930" download="server" type="mods"/>
         
-        <mod name="Morph-o-Tool" version="1.2-21" url="packs/MechMagic/files/1.12.2Mods/Mods/Morph-o-Tool-1.2-21.jar" file="Morph-o-Tool-1.2-21.jar" md5="a56d6a54721acef7fa4863d4efd20638" download="server" type="mods" />
+        <mod name="Morph-o-Tool" version="1.2-21" url="packs/MechMagic/files/3.1.8/Morph-o-Tool-1.2-21.jar" file="Morph-o-Tool-1.2-21.jar" md5="a56d6a54721acef7fa4863d4efd20638" download="server" type="mods"/>
         
-        <mod name="ModPack Utilities" version="1.5.7" url="packs/MechMagic/files/1.12.2Mods/Mods/MPUtils-1.12.2-1.5.7.jar" file="MPUtils-1.12.2-1.5.7.jar" md5="c41edc75080c464b591ceb7aad690f6d" download="server" type="mods" />
+        <mod name="ModPack Utilities" version="1.5.7" url="packs/MechMagic/files/3.1.8/MPUtils-1.12.2-1.5.7.jar" file="MPUtils-1.12.2-1.5.7.jar" md5="c41edc75080c464b591ceb7aad690f6d" download="server" type="mods"/>
         
-        <mod name="Mystical World" version="1.12.2-1.8.3" url="packs/MechMagic/files/1.12.2Mods/Mods/mysticalworld-1.12.2-1.8.3.jar" file="mysticalworld-1.12.2-1.8.3.jar" md5="02c712c13f1b68c8675314da3d8733ef" download="server" type="mods" />
+        <mod name="Mystical World" version="1.12.2-1.8.4" url="packs/MechMagic/files/3.1.8/mysticalworld-1.12.2-1.8.4.jar" file="mysticalworld-1.12.2-1.8.4.jar" md5="a92e960b2c37fbe5a47b3c38ec2cbb78" download="server" type="mods"/>
         
-        <mod name="Nature&apos;s Aura" version="18.1" url="packs/MechMagic/files/1.12.2Mods/Mods/NaturesAura-18.1.jar" file="NaturesAura-18.1.jar" md5="212888fda527e55e19b91a69605ec43c" download="server" type="mods" />
+        <mod name="Nature's Aura" version="18.1" url="packs/MechMagic/files/3.1.8/NaturesAura-18.1.jar" file="NaturesAura-18.1.jar" md5="212888fda527e55e19b91a69605ec43c" download="server" type="mods"/>
         
-        <mod name="NetherPortalFix" version="5.3.17" url="packs/MechMagic/files/1.12.2Mods/Mods/NetherPortalFix_1.12.1-5.3.17.jar" file="NetherPortalFix_1.12.1-5.3.17.jar" md5="97ff3e60aa9725cedbc64f19e179f813" download="server" type="mods" />
+        <mod name="NetherPortalFix" version="5.3.17" url="packs/MechMagic/files/3.1.8/NetherPortalFix_1.12.1-5.3.17.jar" file="NetherPortalFix_1.12.1-5.3.17.jar" md5="97ff3e60aa9725cedbc64f19e179f813" download="server" type="mods"/>
         
-        <mod name="OpenBlocks" version="1.8.1" url="packs/MechMagic/files/1.12.2Mods/Mods/OpenBlocks-1.12.2-1.8.1.jar" file="OpenBlocks-1.12.2-1.8.1.jar" md5="cd7f642f983669c6ae94d6a999d0d6e9" download="server" type="mods" />
+        <mod name="OpenBlocks" version="1.8.1" url="packs/MechMagic/files/3.1.8/OpenBlocks-1.12.2-1.8.1.jar" file="OpenBlocks-1.12.2-1.8.1.jar" md5="cd7f642f983669c6ae94d6a999d0d6e9" download="server" type="mods"/>
         
-        <mod name="OpenComputers" version="1.7.5.192" url="packs/MechMagic/files/1.12.2Mods/Mods/OpenComputers-MC1.12.2-1.7.5.192.jar" file="OpenComputers-MC1.12.2-1.7.5.192.jar" md5="1da9dd8478ba6d682f2787746776e18a" download="server" type="mods" />
+        <mod name="OpenComputers" version="1.7.5.192" url="packs/MechMagic/files/3.1.8/OpenComputers-MC1.12.2-1.7.5.192.jar" file="OpenComputers-MC1.12.2-1.7.5.192.jar" md5="1da9dd8478ba6d682f2787746776e18a" download="server" type="mods"/>
         
-        <mod name="OpenModsLib" version="0.12.2" url="packs/MechMagic/files/1.12.2Mods/Mods/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods" />
+        <mod name="OpenModsLib" version="0.12.2" url="packs/MechMagic/files/3.1.8/OpenModsLib-1.12.2-0.12.2.jar" file="OpenModsLib-1.12.2-0.12.2.jar" md5="9c0606c553fbdf86e2f459c1cc40414d" download="server" type="mods"/>
         
-        <mod name="OreGen" version="0.9.5.1" url="packs/MechMagic/files/1.12.2Mods/Mods/OreGen-1.12.2-0.9.5.1.jar" file="OreGen-1.12.2-0.9.5.1.jar" md5="e20574ef6778364697c3ea33a6455b04" download="server" type="mods" />
+        <mod name="OreGen" version="0.9.6" url="packs/MechMagic/files/3.1.8/OreGen-1.12.2-0.9.6.jar" file="OreGen-1.12.2-0.9.6.jar" md5="7c9c87f1431de56d2e14d785b7903ef5" download="server" type="mods"/>
         
-        <mod name="PackGuard" version="2.3.3" url="packs/MechMagic/files/1.12.2Mods/Mods/PackGuard-1.12-2.3.3.jar" file="PackGuard-1.12-2.3.3.jar" md5="d7f4b82f036f26c03123d27b5ead7df0" download="server" type="mods" />
+        <mod name="PackGuard" version="2.3.3" url="packs/MechMagic/files/3.1.8/PackGuard-1.12-2.3.3.jar" file="PackGuard-1.12-2.3.3.jar" md5="d7f4b82f036f26c03123d27b5ead7df0" download="server" type="mods"/>
         
-        <mod name="Platforms" version="1.12.0-1.4.6" url="packs/MechMagic/files/1.12.2Mods/Mods/platforms-1.12.0-1.4.6.jar" file="platforms-1.12.0-1.4.6.jar" md5="275771862b695668c709396e5338c4b8" download="server" type="mods" />
+        <mod name="Platforms" version="1.12.0-1.4.6" url="packs/MechMagic/files/3.1.8/platforms-1.12.0-1.4.6.jar" file="platforms-1.12.0-1.4.6.jar" md5="275771862b695668c709396e5338c4b8" download="server" type="mods"/>
         
-        <mod name="Progressive Bosses" version="1.5.4-mc1.12.x" url="packs/MechMagic/files/1.12.2Mods/Mods/ProgressiveBosses-1.5.4-mc1.12.x.jar" file="ProgressiveBosses-1.5.4-mc1.12.x.jar" md5="89b1d4876a4523ca61692a874f34284c" download="server" type="mods" />
+        <mod name="Progressive Bosses" version="1.5.4-mc1.12.x" url="packs/MechMagic/files/3.1.8/ProgressiveBosses-1.5.4-mc1.12.x.jar" file="ProgressiveBosses-1.5.4-mc1.12.x.jar" md5="89b1d4876a4523ca61692a874f34284c" download="server" type="mods"/>
         
-        <mod name="Project Intelligence" version="1.12.2-1.0.9.28" url="packs/MechMagic/files/1.12.2Mods/Mods/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar" file="ProjectIntelligence-1.12.2-1.0.9.28-universal.jar" md5="96657f132afd609f2a92cf4994698e64" download="server" type="mods" />
+        <mod name="Project Intelligence" version="1.12.2-1.0.9.28" url="packs/MechMagic/files/3.1.8/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar" file="ProjectIntelligence-1.12.2-1.0.9.28-universal.jar" md5="96657f132afd609f2a92cf4994698e64" download="server" type="mods"/>
         
-        <mod name="Psi" version="r1.1-77" url="packs/MechMagic/files/1.12.2Mods/Mods/Psi-r1.1-77.jar" file="Psi-r1.1-77.jar" md5="c12d66fcaff082f7231a7f97cb0199cd" download="server" type="mods" />
+        <mod name="Psi" version="r1.1-78" url="packs/MechMagic/files/3.1.8/Psi-r1.1-78.1.jar" file="Psi-r1.1-78.1.jar" md5="8006b401c731c7ae4f3d084b6d08ff57" download="server" type="mods"/>
         
-        <mod name="QuantumStorage" version="4.7.0" url="packs/MechMagic/files/1.12.2Mods/Mods/QuantumStorage-1.12-4.7.0.jar" file="QuantumStorage-1.12-4.7.0.jar" md5="4da452dfc28431b56e76e9ab2431df2c" download="server" type="mods" />
+        <mod name="QuantumStorage" version="4.7.0" url="packs/MechMagic/files/3.1.8/QuantumStorage-1.12-4.7.0.jar" file="QuantumStorage-1.12-4.7.0.jar" md5="4da452dfc28431b56e76e9ab2431df2c" download="server" type="mods"/>
         
-        <mod name="Quark" version="r1.6-178" url="packs/MechMagic/files/1.12.2Mods/Mods/Quark-r1.6-178.jar" file="Quark-r1.6-178.jar" md5="8d69c5722fa6498813da16b4d940246d" download="server" type="mods" />
+        <mod name="Quark" version="r1.6-179" url="packs/MechMagic/files/3.1.8/Quark-r1.6-179.jar" file="Quark-r1.6-179.jar" md5="dfcfa70d244f0435a5ff2b28037a324b" download="server" type="mods"/>
         
-        <mod name="Railcraft" version="12.0.0" url="packs/MechMagic/files/1.12.2Mods/Mods/railcraft-12.0.0.jar" file="railcraft-12.0.0.jar" md5="b6f0592e8f5c24d07fe065f1c97c8fda" download="server" type="mods" />
+        <mod name="Railcraft" version="12.0.0" url="packs/MechMagic/files/3.1.8/railcraft-12.0.0.jar" file="railcraft-12.0.0.jar" md5="b6f0592e8f5c24d07fe065f1c97c8fda" download="server" type="mods"/>
         
-        <mod name="RandomPatches" version="1.12.2-1.21.0.1" url="packs/MechMagic/files/1.12.2Mods/Mods/randompatches-1.12.2-1.21.0.1.jar" file="randompatches-1.12.2-1.21.0.1.jar" md5="e24e16eaa1f34800d9c49ef6cb617197" download="server" type="mods" />
+        <mod name="RandomPatches" version="1.12.2-1.22.1.1" url="packs/MechMagic/files/3.1.8/randompatches-1.12.2-1.22.1.1.jar" file="randompatches-1.12.2-1.22.1.1.jar" md5="35857b7f89254226f83ab62468a01812" download="server" type="mods"/>
         
-        <mod name="Random Things" version="4.2.7.4" url="packs/MechMagic/files/1.12.2Mods/Mods/RandomThings-MC1.12.2-4.2.7.4.jar" file="RandomThings-MC1.12.2-4.2.7.4.jar" md5="b91502e1810cdf13dfd5fb3b4e15e5ad" download="server" type="mods" />
+        <mod name="Random Things" version="4.2.7.4" url="packs/MechMagic/files/3.1.8/RandomThings-MC1.12.2-4.2.7.4.jar" file="RandomThings-MC1.12.2-4.2.7.4.jar" md5="b91502e1810cdf13dfd5fb3b4e15e5ad" download="server" type="mods"/>
         
-        <mod name="Realistic Item Drops" version="1.2.14" url="packs/MechMagic/files/1.12.2Mods/Mods/RealisticItemDrops-1.2.14.jar" file="RealisticItemDrops-1.2.14.jar" md5="7ecff9f80b9cd0986b18489405136e81" download="server" type="mods" />
+        <mod name="Realistic Item Drops" version="1.2.14" url="packs/MechMagic/files/3.1.8/RealisticItemDrops-1.2.14.jar" file="RealisticItemDrops-1.2.14.jar" md5="7ecff9f80b9cd0986b18489405136e81" download="server" type="mods"/>
         
-        <mod name="Redstone Arsenal" version="2.6.4.1" url="packs/MechMagic/files/1.12.2Mods/Mods/RedstoneArsenal-1.12.2-2.6.4.1-universal.jar" file="RedstoneArsenal-1.12.2-2.6.4.1-universal.jar" md5="9c7cab97811071b1b2d96442829a176e" download="server" type="mods" />
+        <mod name="Redstone Arsenal" version="2.6.6.1" url="packs/MechMagic/files/3.1.8/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar" file="RedstoneArsenal-1.12.2-2.6.6.1-universal.jar" md5="d2ca2d7e0987a9f3d1cb82898942bb78" download="server" type="mods"/>
         
-        <mod name="Redstone Flux" version="2.1.1.1" url="packs/MechMagic/files/1.12.2Mods/Mods/RedstoneFlux-1.12-2.1.1.1-universal.jar" file="RedstoneFlux-1.12-2.1.1.1-universal.jar" md5="93b1715f05be1878da93fca36dd37f2a" download="server" type="mods" />
+        <mod name="Redstone Flux" version="2.1.1.1" url="packs/MechMagic/files/3.1.8/RedstoneFlux-1.12-2.1.1.1-universal.jar" file="RedstoneFlux-1.12-2.1.1.1-universal.jar" md5="93b1715f05be1878da93fca36dd37f2a" download="server" type="mods"/>
         
-        <mod name="Redstone Paste" version="mc1.12-1.7.5" url="packs/MechMagic/files/1.12.2Mods/Mods/redstonepaste-mc1.12-1.7.5.jar" file="redstonepaste-mc1.12-1.7.5.jar" md5="891eac2b35d015777858f713b4eeee69" download="server" type="mods" />
+        <mod name="Redstone Paste" version="mc1.12-1.7.5" url="packs/MechMagic/files/3.1.8/redstonepaste-mc1.12-1.7.5.jar" file="redstonepaste-mc1.12-1.7.5.jar" md5="891eac2b35d015777858f713b4eeee69" download="server" type="mods"/>
         
-        <mod name="Reliquary" version="1.12.2-1.3.4.796" url="packs/MechMagic/files/1.12.2Mods/Mods/Reliquary-1.12.2-1.3.4.796.jar" file="Reliquary-1.12.2-1.3.4.796.jar" md5="acd6db4d0449a588f651a63480c4b435" download="server" type="mods" />
+        <mod name="Reliquary" version="1.12.2-1.3.4.796" url="packs/MechMagic/files/3.1.8/Reliquary-1.12.2-1.3.4.796.jar" file="Reliquary-1.12.2-1.3.4.796.jar" md5="acd6db4d0449a588f651a63480c4b435" download="server" type="mods"/>
         
-        <mod name="Resource Loader" version="1.5.3" url="packs/MechMagic/files/1.12.2Mods/Mods/ResourceLoader-MC1.12.1-1.5.3.jar" file="ResourceLoader-MC1.12.1-1.5.3.jar" md5="51141e882f96ce756b9b3d25f2acdf57" download="server" type="mods" />
+        <mod name="Resource Loader" version="1.5.3" url="packs/MechMagic/files/3.1.8/ResourceLoader-MC1.12.1-1.5.3.jar" file="ResourceLoader-MC1.12.1-1.5.3.jar" md5="51141e882f96ce756b9b3d25f2acdf57" download="server" type="mods"/>
         
-        <mod name="RFTools" version="1.12-7.73" url="packs/MechMagic/files/1.12.2Mods/Mods/rftools-1.12-7.73.jar" file="rftools-1.12-7.73.jar" md5="3af6f5864243b044a8dd6f2cb1a4b0cf" download="server" type="mods" />
+        <mod name="RFTools" version="1.12-7.73" url="packs/MechMagic/files/3.1.8/rftools-1.12-7.73.jar" file="rftools-1.12-7.73.jar" md5="3af6f5864243b044a8dd6f2cb1a4b0cf" download="server" type="mods"/>
         
-        <mod name="Roots" version="1.12.2-3.0.26" url="packs/MechMagic/files/1.12.2Mods/Mods/Roots-1.12.2-3.0.26.jar" file="Roots-1.12.2-3.0.26.jar" md5="f19f00ddbd9f414082d667e1c14bc98e" download="server" type="mods" />
+        <mod name="Roots" version="1.12.2-3.0.30" url="packs/MechMagic/files/3.1.8/Roots-1.12.2-3.0.30.jar" file="Roots-1.12.2-3.0.30.jar" md5="2a77b2a8a39023dd1e98cb2709cb4e52" download="server" type="mods"/>
         
-        <mod name="Scaling Health" version="1.3.42" url="packs/MechMagic/files/1.12.2Mods/Mods/ScalingHealth-1.12.2-1.3.42147.jar" file="ScalingHealth-1.12.2-1.3.42147.jar" md5="e9455929b793300c4987ab368d38d170" download="server" type="mods" />
+        <mod name="Scaling Health" version="1.3.42" url="packs/MechMagic/files/3.1.8/ScalingHealth-1.12.2-1.3.42147.jar" file="ScalingHealth-1.12.2-1.3.42147.jar" md5="e9455929b793300c4987ab368d38d170" download="server" type="mods"/>
         
-        <mod name="Scarecrows" version="1.0.8" url="packs/MechMagic/files/1.12.2Mods/Mods/scarecrows-1.12.x-v1.0.8.jar" file="scarecrows-1.12.x-v1.0.8.jar" md5="b597fcc067b83e5eb378986bd33eaecd" download="server" type="mods" />
+        <mod name="Scarecrows" version="scarecrows-1.12.x-v1.0.8.jar" url="packs/MechMagic/files/3.1.8/scarecrows-1.12.x-v1.0.8.jar" file="scarecrows-1.12.x-v1.0.8.jar" md5="b597fcc067b83e5eb378986bd33eaecd" download="server" type="mods"/>
         
-        <mod name="Secret Rooms 5" version="5.6.4" url="packs/MechMagic/files/1.12.2Mods/Mods/secretroomsmod-1.12.2-5.6.4.jar" file="secretroomsmod-1.12.2-5.6.4.jar" md5="d853b4060cf429ce7765a750501de764" download="server" type="mods" />
+        <mod name="Secret Rooms 5" version="5.6.4" url="packs/MechMagic/files/3.1.8/secretroomsmod-1.12.2-5.6.4.jar" file="secretroomsmod-1.12.2-5.6.4.jar" md5="d853b4060cf429ce7765a750501de764" download="server" type="mods"/>
         
-        <mod name="Server Tab Info" version="1.2.6" url="packs/MechMagic/files/1.12.2Mods/Mods/ServerTabInfo-1.12.2-1.2.6.jar" file="ServerTabInfo-1.12.2-1.2.6.jar" md5="c3d7e8568e677169da1ed9e4a689df17" download="server" type="mods" />
+        <mod name="Server Tab Info" version="1.2.6" url="packs/MechMagic/files/3.1.8/ServerTabInfo-1.12.2-1.2.6.jar" file="ServerTabInfo-1.12.2-1.2.6.jar" md5="c3d7e8568e677169da1ed9e4a689df17" download="server" type="mods"/>
         
-        <mod name="Silent&apos;s Gems" version="2.8.22" url="packs/MechMagic/files/1.12.2Mods/Mods/SilentsGems-1.12.2-2.8.22327.jar" file="SilentsGems-1.12.2-2.8.22327.jar" md5="f0d495169719288a9c0ba236275f049c" download="server" type="mods" />
+        <mod name="Silent's Gems" version="2.8.22" url="packs/MechMagic/files/3.1.8/SilentsGems-1.12.2-2.8.22327.jar" file="SilentsGems-1.12.2-2.8.22327.jar" md5="f0d495169719288a9c0ba236275f049c" download="server" type="mods"/>
         
-        <mod name="Silent&apos;s Gems: Extra Parts" version="1.4.6" url="packs/MechMagic/files/1.12.2Mods/Mods/SGExtraParts-1.12.2-1.4.6-49.jar" file="SGExtraParts-1.12.2-1.4.6-49.jar" md5="0b8448ca494dac0c5e88e16ecec79504" download="server" type="mods" />
+        <mod name="Silent's Gems: Extra Parts" version="1.4.6" url="packs/MechMagic/files/3.1.8/SGExtraParts-1.12.2-1.4.6-49.jar" file="SGExtraParts-1.12.2-1.4.6-49.jar" md5="0b8448ca494dac0c5e88e16ecec79504" download="server" type="mods"/>
         
-        <mod name="Smooth Font" version="mc1.12.2-2.1.1" url="packs/MechMagic/files/1.12.2Mods/Mods/SmoothFont-mc1.12.2-2.1.1.jar" file="SmoothFont-mc1.12.2-2.1.1.jar" md5="99f7cd6644efabbe6055f2e9f429aafb" download="server" type="mods" />
+        <mod name="Smooth Font" version="mc1.12.2-2.1.2" url="packs/MechMagic/files/3.1.8/SmoothFont-mc1.12.2-2.1.2.jar" file="SmoothFont-mc1.12.2-2.1.2.jar" md5="696c2cab0d01b90e33f6c85277f1ea83" download="server" type="mods"/>
         
-        <mod name="Soot" version="1.6" url="packs/MechMagic/files/1.12.2Mods/Mods/Soot-1.6.jar" file="Soot-1.6.jar" md5="a93e23617d351bff9b489072206291c8" download="server" type="mods" />
+        <mod name="Soot" version="1.9" url="packs/MechMagic/files/3.1.8/Soot-1.9.jar" file="Soot-1.9.jar" md5="c5f5d944e53db72425cf15fe5fb69179" download="server" type="mods"/>
         
-        <mod name="Steve&apos;s Carts 2" version="2.4.32.137" url="packs/MechMagic/files/1.12.2Mods/Mods/StevesCarts-1.12.2-2.4.32.137.jar" file="StevesCarts-1.12.2-2.4.32.137.jar" md5="12364b6c528fe49af3c9d6cfb6cc4117" download="server" type="mods" />
+        <mod name="Steve's Carts 2" version="2.4.32.137" url="packs/MechMagic/files/3.1.8/StevesCarts-1.12.2-2.4.32.137.jar" file="StevesCarts-1.12.2-2.4.32.137.jar" md5="12364b6c528fe49af3c9d6cfb6cc4117" download="server" type="mods"/>
         
-        <mod name="SwingThroughGrass" version="1.12.2-1.2.3" url="packs/MechMagic/files/1.12.2Mods/Mods/stg-1.12.2-1.2.3.jar" file="stg-1.12.2-1.2.3.jar" md5="b836648006f1451c65d33f7132eec770" download="server" type="mods" />
+        <mod name="SwingThroughGrass" version="1.12.2-1.2.3" url="packs/MechMagic/files/3.1.8/stg-1.12.2-1.2.3.jar" file="stg-1.12.2-1.2.3.jar" md5="b836648006f1451c65d33f7132eec770" download="server" type="mods"/>
         
-        <mod name="Storage Drawers" version="5.4.1" url="packs/MechMagic/files/1.12.2Mods/Mods/StorageDrawers-1.12.2-5.4.1.jar" file="StorageDrawers-1.12.2-5.4.1.jar" md5="050dd7ca699431dc4ce0b581567aae8a" download="server" type="mods" />
+        <mod name="Storage Drawers" version="5.4.2" url="packs/MechMagic/files/3.1.8/StorageDrawers-1.12.2-5.4.2.jar" file="StorageDrawers-1.12.2-5.4.2.jar" md5="0f658c7cba3e6793abbcb934b4810902" download="server" type="mods"/>
         
-        <mod name="Tinkers&apos; Construct" version="2.13.0.183" url="packs/MechMagic/files/1.12.2Mods/Mods/TConstruct-1.12.2-2.13.0.183.jar" file="TConstruct-1.12.2-2.13.0.183.jar" md5="710d64342d41042b7d6ced891448e727" download="server" type="mods" />
+        <mod name="Tinkers' Construct" version="2.13.0.183" url="packs/MechMagic/files/3.1.8/TConstruct-1.12.2-2.13.0.183.jar" file="TConstruct-1.12.2-2.13.0.183.jar" md5="710d64342d41042b7d6ced891448e727" download="server" type="mods"/>
         
-        <mod name="Tinkers Tool Leveling" version="1.1.0" url="packs/MechMagic/files/1.12.2Mods/Mods/TinkerToolLeveling-1.12.2-1.1.0.jar" file="TinkerToolLeveling-1.12.2-1.1.0.jar" md5="f9253fe86c6649afbf49d221c71ba19a" download="server" type="mods" />
+        <mod name="Tinkers Tool Leveling" version="1.1.0" url="packs/MechMagic/files/3.1.8/TinkerToolLeveling-1.12.2-1.1.0.jar" file="TinkerToolLeveling-1.12.2-1.1.0.jar" md5="f9253fe86c6649afbf49d221c71ba19a" download="server" type="mods"/>
         
-        <mod name="Thaumcraft" version="1.12.2-6.1.BETA26" url="packs/MechMagic/files/1.12.2Mods/Mods/Thaumcraft-1.12.2-6.1.BETA26.jar" file="Thaumcraft-1.12.2-6.1.BETA26.jar" md5="3b13783ccaafb5d5b9ce8cb85e87fff6" download="server" type="mods" />
+        <mod name="Thaumcraft" version="1.12.2-6.1.BETA26" url="packs/MechMagic/files/3.1.8/Thaumcraft-1.12.2-6.1.BETA26.jar" file="Thaumcraft-1.12.2-6.1.BETA26.jar" md5="3b13783ccaafb5d5b9ce8cb85e87fff6" download="server" type="mods"/>
         
-        <mod name="The One Probe" version="1.12-1.4.28" url="packs/MechMagic/files/1.12.2Mods/Mods/theoneprobe-1.12-1.4.28.jar" file="theoneprobe-1.12-1.4.28.jar" md5="63849a13a822b3b56308245eb8074a7e" download="server" type="mods" />
+        <mod name="The One Probe" version="1.12-1.4.28" url="packs/MechMagic/files/3.1.8/theoneprobe-1.12-1.4.28.jar" file="theoneprobe-1.12-1.4.28.jar" md5="63849a13a822b3b56308245eb8074a7e" download="server" type="mods"/>
         
-        <mod name="Thermal Dynamics" version="2.5.6.1" url="packs/MechMagic/files/1.12.2Mods/Mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar" file="ThermalDynamics-1.12.2-2.5.6.1-universal.jar" md5="38a0c024f5775b0cf783de839033f8db" download="server" type="mods" />
+        <mod name="Thermal Dynamics" version="2.5.6.1" url="packs/MechMagic/files/3.1.8/ThermalDynamics-1.12.2-2.5.6.1-universal.jar" file="ThermalDynamics-1.12.2-2.5.6.1-universal.jar" md5="38a0c024f5775b0cf783de839033f8db" download="server" type="mods"/>
         
-        <mod name="Thermal Expansion" version="5.5.6.1" url="packs/MechMagic/files/1.12.2Mods/Mods/ThermalExpansion-1.12.2-5.5.6.1-universal.jar" file="ThermalExpansion-1.12.2-5.5.6.1-universal.jar" md5="cc357e0f72a0f5251d3b8b408e489543" download="server" type="mods" />
+        <mod name="Thermal Expansion" version="5.5.7.1" url="packs/MechMagic/files/3.1.8/ThermalExpansion-1.12.2-5.5.7.1-universal.jar" file="ThermalExpansion-1.12.2-5.5.7.1-universal.jar" md5="0bf91e166b05e83d22455a9c7ec395bb" download="server" type="mods"/>
         
-        <mod name="Thermal Foundation" version="2.6.6.1" url="packs/MechMagic/files/1.12.2Mods/Mods/ThermalFoundation-1.12.2-2.6.6.1-universal.jar" file="ThermalFoundation-1.12.2-2.6.6.1-universal.jar" md5="c956183ceaa8cd78c108061947f78338" download="server" type="mods" />
+        <mod name="Thermal Foundation" version="2.6.7.1" url="packs/MechMagic/files/3.1.8/ThermalFoundation-1.12.2-2.6.7.1-universal.jar" file="ThermalFoundation-1.12.2-2.6.7.1-universal.jar" md5="6eca041bbf28949b60ecf1179d561156" download="server" type="mods"/>
         
-        <mod name="TorchMaster" version="1.8.1.81" url="packs/MechMagic/files/1.12.2Mods/Mods/torchmaster_1.12.2-1.8.1.81.jar" file="torchmaster_1.12.2-1.8.1.81.jar" md5="046ce3ee2a8e1a21234c5ef92875d38e" download="server" type="mods" />
+        <mod name="TorchMaster" version="1.8.1.82" url="packs/MechMagic/files/3.1.8/torchmaster_1.12.2-1.8.1.82.jar" file="torchmaster_1.12.2-1.8.1.82.jar" md5="bd2c8a1fdae7691acb011d43a88f645c" download="server" type="mods"/>
         
-        <mod name="Totemic" version="1.12.2-0.11.6" url="packs/MechMagic/files/1.12.2Mods/Mods/Totemic-1.12.2-0.11.6.jar" file="Totemic-1.12.2-0.11.6.jar" md5="e55df58ea598245f103fbd4385fcc5b7" download="server" type="mods" />
+        <mod name="Totemic" version="1.12.2-0.11.6" url="packs/MechMagic/files/3.1.8/Totemic-1.12.2-0.11.6.jar" file="Totemic-1.12.2-0.11.6.jar" md5="e55df58ea598245f103fbd4385fcc5b7" download="server" type="mods"/>
         
-        <mod name="Translocators" version="2.5.2.81" url="packs/MechMagic/files/1.12.2Mods/Mods/Translocators-1.12.2-2.5.2.81-universal.jar" file="Translocators-1.12.2-2.5.2.81-universal.jar" md5="bea9b18295a2b7762dedd938f447353c" download="server" type="mods" />
+        <mod name="Translocators" version="2.5.2.81" url="packs/MechMagic/files/3.1.8/Translocators-1.12.2-2.5.2.81-universal.jar" file="Translocators-1.12.2-2.5.2.81-universal.jar" md5="bea9b18295a2b7762dedd938f447353c" download="server" type="mods"/>
         
-        <mod name="Tree Chopper" version="1.2.4" url="packs/MechMagic/files/1.12.2Mods/Mods/TreeChopper-1.12.2-1.2.4.jar" file="TreeChopper-1.12.2-1.2.4.jar" md5="56dfb51a864cb3355f0f04cde27e44d6" download="server" type="mods" />
+        <mod name="Tree Chopper" version="1.2.4" url="packs/MechMagic/files/3.1.8/TreeChopper-1.12.2-1.2.4.jar" file="TreeChopper-1.12.2-1.2.4.jar" md5="56dfb51a864cb3355f0f04cde27e44d6" download="server" type="mods"/>
         
-        <mod name="The Twilight Forest" version="3.10.1013" url="packs/MechMagic/files/1.12.2Mods/Mods/twilightforest-1.12.2-3.10.1013-universal.jar" file="twilightforest-1.12.2-3.10.1013-universal.jar" md5="49ba19277c2bfbcf65aa93173292812b" download="server" type="mods" />
+        <mod name="The Twilight Forest" version="3.10.1013" url="packs/MechMagic/files/3.1.8/twilightforest-1.12.2-3.10.1013-universal.jar" file="twilightforest-1.12.2-3.10.1013-universal.jar" md5="49ba19277c2bfbcf65aa93173292812b" download="server" type="mods"/>
         
-        <mod name="UniDict" version="1.12.2-2.9.6" url="packs/MechMagic/files/1.12.2Mods/Mods/UniDict-1.12.2-2.9.6.jar" file="UniDict-1.12.2-2.9.6.jar" md5="997757ba2a263a6da929f4735455c018" download="server" type="mods" />
+        <mod name="UniDict" version="1.12.2-2.9.6" url="packs/MechMagic/files/3.1.8/UniDict-1.12.2-2.9.6.jar" file="UniDict-1.12.2-2.9.6.jar" md5="997757ba2a263a6da929f4735455c018" download="server" type="mods"/>
         
-        <mod name="Useful Nullifiers" version="1.5.0" url="packs/MechMagic/files/1.12.2Mods/Mods/usefulnullifiers-1.5.0.jar" file="usefulnullifiers-1.5.0.jar" md5="3539bc6f6ac3f770609f7a2e353443ef" download="server" type="mods" />
+        <mod name="Useful Nullifiers" version="1.5.0" url="packs/MechMagic/files/3.1.8/usefulnullifiers-1.5.0.jar" file="usefulnullifiers-1.5.0.jar" md5="3539bc6f6ac3f770609f7a2e353443ef" download="server" type="mods"/>
         
-        <mod name="Vampiric Parasols" version="0.0.4" url="packs/MechMagic/files/1.12.2Mods/Mods/Vamparasol_0.0.4.jar" file="Vamparasol_0.0.4.jar" md5="a7f84c8bf69c059bf12dc0cf03a15203" download="server" type="mods" />
+        <mod name="Vampiric Parasols" version="0.0.4" url="packs/MechMagic/files/3.1.8/Vamparasol_0.0.4.jar" file="Vamparasol_0.0.4.jar" md5="a7f84c8bf69c059bf12dc0cf03a15203" download="server" type="mods"/>
         
-        <mod name="Vampirism" version="1.6.2" url="packs/MechMagic/files/1.12.2Mods/Mods/Vampirism-1.12.2-1.6.2.jar" file="Vampirism-1.12.2-1.6.2.jar" md5="f107faf83a8618a491a8972b95d46a3d" download="server" type="mods" />
+        <mod name="Vampirism" version="1.6.2" url="packs/MechMagic/files/3.1.8/Vampirism-1.12.2-1.6.2.jar" file="Vampirism-1.12.2-1.6.2.jar" md5="f107faf83a8618a491a8972b95d46a3d" download="server" type="mods"/>
         
-        <mod name="VampirismIntegrations" version="1.12.2-1.2.0" url="packs/MechMagic/files/1.12.2Mods/Mods/VampirismIntegrations-1.12.2-1.2.0.jar" file="VampirismIntegrations-1.12.2-1.2.0.jar" md5="c960f7547983f4536ac6922ab207e5d9" download="server" type="mods" />
+        <mod name="VampirismIntegrations" version="1.12.2-1.3.0" url="packs/MechMagic/files/3.1.8/VampirismIntegrations-1.12.2-1.3.0.jar" file="VampirismIntegrations-1.12.2-1.3.0.jar" md5="b032775378cb92febf1a2a4f9b98ecae" download="server" type="mods"/>
         
-        <mod name="VanillaFix" version="1.0.10-SNAPSHOT" url="packs/MechMagic/files/1.12.2Mods/Mods/VanillaFix-1.0.10-99.jar" file="VanillaFix-1.0.10-99.jar" md5="eb05714c798a94f52ddd8617857052ab" download="server" type="mods" />
+        <mod name="VanillaFix" version="1.0.10-150" url="packs/MechMagic/files/3.1.8/VanillaFix-1.0.10-150.jar" file="VanillaFix-1.0.10-150.jar" md5="a74aaab68100e03f54e35d1007d50169" download="server" type="mods"/>
         
-        <mod name="Veining" version="1.3.2" url="packs/MechMagic/files/1.12.2Mods/Mods/veining-1.3.2-1.12.x.jar" file="veining-1.3.2-1.12.x.jar" md5="c19d8cc2ce5a3ce7c3469908cae6b21e" download="server" type="mods" />
+        <mod name="Veining" version="1.3.2" url="packs/MechMagic/files/3.1.8/veining-1.3.2-1.12.x.jar" file="veining-1.3.2-1.12.x.jar" md5="c19d8cc2ce5a3ce7c3469908cae6b21e" download="server" type="mods"/>
         
-        <mod name="Vending" version="1.12.2-3.0.1.2" url="packs/MechMagic/files/1.12.2Mods/Mods/vending-1.12.2-3.0.1.2.jar" file="vending-1.12.2-3.0.1.2.jar" md5="a89b3bbf606f97572f78daf5bb734c77" download="server" type="mods" />
+        <mod name="Vending" version="1.12.2-3.0.1.2" url="packs/MechMagic/files/3.1.8/vending-1.12.2-3.0.1.2.jar" file="vending-1.12.2-3.0.1.2.jar" md5="a89b3bbf606f97572f78daf5bb734c77" download="server" type="mods"/>
         
-        <mod name="ViesCraft" version="5.9.16" url="packs/MechMagic/files/1.12.2Mods/Mods/ViesCraft-1.12.2-5.9.16.jar" file="ViesCraft-1.12.2-5.9.16.jar" md5="8c9d7612d8e755864d09ee949ba89e85" download="server" type="mods" />
+        <mod name="ViesCraft" version="5.9.16" url="packs/MechMagic/files/3.1.8/ViesCraft-1.12.2-5.9.16.jar" file="ViesCraft-1.12.2-5.9.16.jar" md5="8c9d7612d8e755864d09ee949ba89e85" download="server" type="mods"/>
         
-        <mod name="Water Strainer" version="1.12-3.2.0" url="packs/MechMagic/files/1.12.2Mods/Mods/WaterStrainer-1.12-3.2.0.jar" file="WaterStrainer-1.12-3.2.0.jar" md5="353d23bcd19d23fa13a12b41222475f0" download="server" type="mods" />
+        <mod name="Water Strainer" version="1.12-3.2.0" url="packs/MechMagic/files/3.1.8/WaterStrainer-1.12-3.2.0.jar" file="WaterStrainer-1.12-3.2.0.jar" md5="353d23bcd19d23fa13a12b41222475f0" download="server" type="mods"/>
         
-        <mod name="Waystones" version="4.1.0" url="packs/MechMagic/files/1.12.2Mods/Mods/Waystones_1.12.2-4.1.0.jar" file="Waystones_1.12.2-4.1.0.jar" md5="5159122949ffb79b80a341135673e8f8" download="server" type="mods" />
+        <mod name="Waystones" version="4.1.0" url="packs/MechMagic/files/3.1.8/Waystones_1.12.2-4.1.0.jar" file="Waystones_1.12.2-4.1.0.jar" md5="5159122949ffb79b80a341135673e8f8" download="server" type="mods"/>
         
-        <mod name="XL Food Mod" version="1.9.2" url="packs/MechMagic/files/1.12.2Mods/Mods/XL-Food-Mod-1.12.2-1.9.2.jar" file="XL-Food-Mod-1.12.2-1.9.2.jar" md5="99996774ced05042e9955d76ed8c8d19" download="server" type="mods" />
+        <mod name="XL Food Mod" version="1.9.2" url="packs/MechMagic/files/3.1.8/XL-Food-Mod-1.12.2-1.9.2.jar" file="XL-Food-Mod-1.12.2-1.9.2.jar" md5="99996774ced05042e9955d76ed8c8d19" download="server" type="mods"/>
         
-        <mod name="YABBA" version="1.1.2.54" url="packs/MechMagic/files/1.12.2Mods/Mods/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods" />
+        <mod name="YABBA" version="1.1.2.54" url="packs/MechMagic/files/3.1.8/YABBA-1.1.2.54.jar" file="YABBA-1.1.2.54.jar" md5="2f8fdd44100dd43f185d82d8fa60619a" download="server" type="mods"/>
         
-        <mod name="Yummy" version="2.3.0" url="packs/MechMagic/files/1.12.2Mods/Mods/yummy-1.12-2.3.0.jar" file="yummy-1.12-2.3.0.jar" md5="03ca59731b7a9f7d51724ad05af34029" download="server" type="mods" />
+        <mod name="Yummy" version="2.3.0" url="packs/MechMagic/files/3.1.8/yummy-1.12-2.3.0.jar" file="yummy-1.12-2.3.0.jar" md5="03ca59731b7a9f7d51724ad05af34029" download="server" type="mods"/>
         
         
         
         <!-- Optional Mods -->
         <mod name="-----Maps-----" version="1.0" url="packs/MechMagic/files/1.12.2Mods/empty.zip" file="empty.zip" md5="76cdb2bad9582d23c1f6f4d868218d6c" download="server" type="extract" extractto="root" optional="yes" authors="Y0ungSandwich" website="http://mechandmagic.com" server="no" description="Choose any 1 Map for your instance. May cause performance issues." colour="Yellow" recommended="no"/>
         
-        <mod name="JourneyMap" version="5.7.1" url="packs/MechMagic/files/1.12.2Mods/Mods/journeymap-1.12.2-5.7.1.jar" file="journeymap-1.12.2-5.7.1.jar" md5="8160b970fc14cff30dff2785bb9f964c" download="server" type="mods" optional="yes" colour="Red" recommended="no" server="no" group="maps" />
+        <mod name="JourneyMap" version="5.7.1" url="https://edge.forgecdn.net/files/2916/002/journeymap-1.12.2-5.7.1.jar" file="journeymap-1.12.2-5.7.1.jar" md5="8160b970fc14cff30dff2785bb9f964c" download="direct" type="mods" optional="yes" colour="Red" recommended="no" server="no" group="maps" description="Real-time mapping in-game or your browser as you explore." authors="techbrew, Mysticdrew" website="https://www.curseforge.com/minecraft/mc-mods/journeymap"/>
         
         <mod name="MapWriter" version="2.8.2" url="packs/MechMagic/files/1.12.2Mods/MapWriter-1.12.2-2.8.2.jar" file="MapWriter-1.12.2-2.8.2.jar" md5="fc3ad89ff602ccf9e6131751d656a362" download="server" type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2523556-mapwriter-continued-an-open-source-mini-map" authors="mapwriter" description="An open source mini map mod" colour="Red" optional="yes" recommended="no" group="maps" server="no"/>
           
@@ -340,7 +335,7 @@
   
   <mod name="Mouse Tweaks" version="2.9" url="packs/MechMagic/files/1.12.2Mods/MouseTweaks-2.9-mc1.12.2.jar" file="MouseTweaks-2.9-mc1.12.2.jar" md5="e4f1e4819512203114a9424c4ab79fd0" download="server" type="mods" website="http://www.minecraftforum.net/topic/1518185-" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/mouse-tweaks?gameCategorySlug=mc-mods&amp;projectID=60089&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=ivan.molodetskikh%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/mouse-tweaks?gameCategorySlug=mc-mods&amp;projectID=60089&amp;lc=US&amp;item_name=Mouse+Tweaks+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="YaLTeR" description="A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons." optional="yes" colour="Purple" server="no"/>
   
-<mod name="Inventory Spam" version="1.0.5" url="packs/MechMagic/files/1.12.2Mods/InventorySpam-1.12.2-1.0.5.jar" file="InventorySpam-1.12.2-1.0.5.jar" md5="347e9664a98a6c5696693c10f4235c3a" download="server" type="mods" optional="yes" colour="Purple" server="no" />
+<mod name="Inventory Spam" version="1.0.5" url="packs/MechMagic/files/1.12.2Mods/InventorySpam-1.12.2-1.0.5.jar" file="InventorySpam-1.12.2-1.0.5.jar" md5="347e9664a98a6c5696693c10f4235c3a" download="server" type="mods" optional="yes" colour="Purple" server="no"/>
  
 <mod name="Blur" version="1.0.4-14" url="packs/MechMagic/files/1.12.2Mods/Blur-1.0.4-14.jar" file="Blur-1.0.4-14.jar" md5="fe6c57af5be36a9ed96f8ff7de61bbd1" download="server" type="mods" website="http://tterrag.com" authors="tterrag" description="Adds a blurry background when viewing GUIs" optional="yes" colour="Red" server="no"/>
 
@@ -350,76 +345,81 @@
         
         <!-- Core Library Mods -->
         
-        <mod name="AutoRegLib" version="1.3-32" url="packs/MechMagic/files/1.12.2Mods/Mods/AutoRegLib-1.3-32.jar" file="AutoRegLib-1.3-32.jar" md5="4e5a4b881c27b1e4502a9a16c00882ad" download="server" type="mods" />
+        <mod name="AutoRegLib" version="1.3-32" url="packs/MechMagic/files/3.1.8/AutoRegLib-1.3-32.jar" file="AutoRegLib-1.3-32.jar" md5="4e5a4b881c27b1e4502a9a16c00882ad" download="server" type="mods"/>
         
-        <mod name="BD Lib" version="1.14.3.12" url="packs/MechMagic/files/1.12.2Mods/Mods/bdlib-1.14.3.12-mc1.12.2.jar" file="bdlib-1.14.3.12-mc1.12.2.jar" md5="d2b8ba08414ac12737eb5ecbf92a19d9" download="server" type="mods" />
+        <mod name="BD Lib" version="1.14.3.12" url="packs/MechMagic/files/3.1.8/bdlib-1.14.3.12-mc1.12.2.jar" file="bdlib-1.14.3.12-mc1.12.2.jar" md5="d2b8ba08414ac12737eb5ecbf92a19d9" download="server" type="mods"/>
         
-        <mod name="Bookshelf" version="2.3.590" url="packs/MechMagic/files/1.12.2Mods/Mods/Bookshelf-1.12.2-2.3.590.jar" file="Bookshelf-1.12.2-2.3.590.jar" md5="85a44d3299449545e435f5ec55fc914b" download="server" type="mods" />
+        <mod name="Bookshelf" version="2.3.590" url="packs/MechMagic/files/3.1.8/Bookshelf-1.12.2-2.3.590.jar" file="Bookshelf-1.12.2-2.3.590.jar" md5="85a44d3299449545e435f5ec55fc914b" download="server" type="mods"/>
         
-        <mod name="Brandon&apos;s Core" version="1.12.2-2.4.18.210" url="packs/MechMagic/files/1.12.2Mods/Mods/BrandonsCore-1.12.2-2.4.18.210-universal.jar" file="BrandonsCore-1.12.2-2.4.18.210-universal.jar" md5="af264b9fbdbcbb1e47da12e79782da7f" download="server" type="mods" />
+        <mod name="Brandon's Core" version="1.12.2-2.4.18.210" url="packs/MechMagic/files/3.1.8/BrandonsCore-1.12.2-2.4.18.210-universal.jar" file="BrandonsCore-1.12.2-2.4.18.210-universal.jar" md5="af264b9fbdbcbb1e47da12e79782da7f" download="server" type="mods"/>
         
-        <mod name="BuildCraft Lib" version="all-7.99.24.6" url="packs/MechMagic/files/1.12.2Mods/Mods/buildcraft-all-7.99.24.6.jar" file="buildcraft-all-7.99.24.6.jar" md5="c06b65abc29f0cb72bfdf110437bea0a" download="server" type="mods" />
+        <mod name="BuildCraft Lib" version="all-7.99.24.6" url="packs/MechMagic/files/3.1.8/buildcraft-all-7.99.24.6.jar" file="buildcraft-all-7.99.24.6.jar" md5="c06b65abc29f0cb72bfdf110437bea0a" download="server" type="mods"/>
         
-        <mod name="Chameleon" version="4.1.3" url="packs/MechMagic/files/1.12.2Mods/Mods/Chameleon-1.12-4.1.3.jar" file="Chameleon-1.12-4.1.3.jar" md5="e42efa8f4fd42d2918128a826b740e98" download="server" type="mods" />
+        <mod name="Chameleon" version="4.1.3" url="packs/MechMagic/files/3.1.8/Chameleon-1.12-4.1.3.jar" file="Chameleon-1.12-4.1.3.jar" md5="e42efa8f4fd42d2918128a826b740e98" download="server" type="mods"/>
         
-        <mod name="CodeChicken Lib" version="3.2.3.358" url="packs/MechMagic/files/1.12.2Mods/Mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar" file="CodeChickenLib-1.12.2-3.2.3.358-universal.jar" md5="3b5e44db5ac96fb23a439590b6731a31" download="server" type="mods" />
+        <mod name="CodeChicken Lib" version="3.2.3.358" url="packs/MechMagic/files/3.1.8/CodeChickenLib-1.12.2-3.2.3.358-universal.jar" file="CodeChickenLib-1.12.2-3.2.3.358-universal.jar" md5="3b5e44db5ac96fb23a439590b6731a31" download="server" type="mods"/>
         
-        <mod name="CoFH Core" version="4.6.6.1" url="packs/MechMagic/files/1.12.2Mods/Mods/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods" />
+        <mod name="CoFH Core" version="4.6.6.1" url="packs/MechMagic/files/3.1.8/CoFHCore-1.12.2-4.6.6.1-universal.jar" file="CoFHCore-1.12.2-4.6.6.1-universal.jar" md5="f147d3b87f97bb317e1c37cba0dde002" download="server" type="mods"/>
         
-        <mod name="CommonCapabilities" version="1.12.2-2.4.6" url="packs/MechMagic/files/1.12.2Mods/Mods/CommonCapabilities-1.12.2-2.4.6.jar" file="CommonCapabilities-1.12.2-2.4.6.jar" md5="51c5f7fa82c3a243538397bdca28c6ca" download="server" type="mods" />
+        <mod name="CommonCapabilities" version="1.12.2-2.4.7" url="packs/MechMagic/files/3.1.8/CommonCapabilities-1.12.2-2.4.7.jar" file="CommonCapabilities-1.12.2-2.4.7.jar" md5="14ab894bd6b66c662be5b77c1e15e95a" download="server" type="mods"/>
         
-        <mod name="CTD Core" version="1.4.2" url="packs/MechMagic/files/1.12.2Mods/Mods/CTD-Core-1.12.2-1.4.2.jar" file="CTD-Core-1.12.2-1.4.2.jar" md5="fd079e6a12c79ccb4410e536ce156723" download="server" type="mods" />
+        <mod name="CTD Core" version="1.4.2" url="packs/MechMagic/files/3.1.8/CTD-Core-1.12.2-1.4.2.jar" file="CTD-Core-1.12.2-1.4.2.jar" md5="fd079e6a12c79ccb4410e536ce156723" download="server" type="mods"/>
         
-        <mod name="Cucumber Library" version="1.1.3" url="packs/MechMagic/files/1.12.2Mods/Mods/Cucumber-1.12.2-1.1.3.jar" file="Cucumber-1.12.2-1.1.3.jar" md5="0018d8de31b05dc44c80a25d73fde15b" download="server" type="mods" />
+        <mod name="Cucumber Library" version="1.1.3" url="packs/MechMagic/files/3.1.8/Cucumber-1.12.2-1.1.3.jar" file="Cucumber-1.12.2-1.1.3.jar" md5="0018d8de31b05dc44c80a25d73fde15b" download="server" type="mods"/>
         
-        <mod name="CXLibrary" version="1.12.1-1.6.1" url="packs/MechMagic/files/1.12.2Mods/Mods/cxlibrary-1.12.1-1.6.1.jar" file="cxlibrary-1.12.1-1.6.1.jar" md5="be35c47a1ab0d2c26bfe84b3f7938662" download="server" type="mods" />
+        <mod name="CXLibrary" version="1.12.1-1.6.1" url="packs/MechMagic/files/3.1.8/cxlibrary-1.12.1-1.6.1.jar" file="cxlibrary-1.12.1-1.6.1.jar" md5="be35c47a1ab0d2c26bfe84b3f7938662" download="server" type="mods"/>
         
-        <mod name="Cyclops Core" version="1.12.2-1.6.2" url="packs/MechMagic/files/1.12.2Mods/Mods/CyclopsCore-1.12.2-1.6.2.jar" file="CyclopsCore-1.12.2-1.6.2.jar" md5="f59037bb77dde48e66fb65f9aa8bf16b" download="server" type="mods" />
-        <mod name="EnderCore" version="1.12.2-0.5.73" url="packs/MechMagic/files/1.12.2Mods/Mods/EnderCore-1.12.2-0.5.73.jar" file="EnderCore-1.12.2-0.5.73.jar" md5="619a6d82109069d4326ba5fabf48d4fa" download="server" type="mods" />
+        <mod name="Cyclops Core" version="1.12.2-1.6.6" url="packs/MechMagic/files/3.1.8/CyclopsCore-1.12.2-1.6.6.jar" file="CyclopsCore-1.12.2-1.6.6.jar" md5="33910a90574e8a6c91448049815aadc4" download="server" type="mods"/>
+        <mod name="EnderCore" version="1.12.2-0.5.76" url="packs/MechMagic/files/3.1.8/EnderCore-1.12.2-0.5.76.jar" file="EnderCore-1.12.2-0.5.76.jar" md5="6164be012de6ee761e37f54a74074125" download="server" type="mods"/>
         
-        <mod name="Foamflower" version="1.12.2-1.0.0.0-beta1" url="packs/MechMagic/files/1.12.2Mods/Mods/foamflower-1.12.2-1.0.0.0-beta1.jar" file="foamflower-1.12.2-1.0.0.0-beta1.jar" md5="6f45a5552ea322d4419660682d195765" download="server" type="mods" />
+        <mod name="Foamflower" version="1.12.2-1.0.0.0-beta1" url="packs/MechMagic/files/3.1.8/foamflower-1.12.2-1.0.0.0-beta1.jar" file="foamflower-1.12.2-1.0.0.0-beta1.jar" md5="6f45a5552ea322d4419660682d195765" download="server" type="mods"/>
         
-        <mod name="Forgelin" version="1.8.4" url="packs/MechMagic/files/1.12.2Mods/Mods/Forgelin-1.8.4.jar" file="Forgelin-1.8.4.jar" md5="2da79fce72265eab0541e565636d389d" download="server" type="mods" />
+        <mod name="Forgelin" version="1.8.4" url="packs/MechMagic/files/1.12.2Mods/Mods/Forgelin-1.8.4.jar" file="Forgelin-1.8.4.jar" md5="2da79fce72265eab0541e565636d389d" download="server" type="mods"/>
         
-        <mod name="FTB Library" version="5.4.7.0" url="packs/MechMagic/files/1.12.2Mods/Mods/FTBLib-5.4.7.0.jar" file="FTBLib-5.4.7.0.jar" md5="23053152aeb147aec8d47329525449a7" download="server" type="mods" />
+        <mod name="FTB Library" version="5.4.7.2" url="packs/MechMagic/files/3.1.8/FTBLib-5.4.7.2.jar" file="FTBLib-5.4.7.2.jar" md5="ea749a3a3391d490ffcdf025e5de48d9" download="server" type="mods"/>
         
-        <mod name="Guide-API" version="1.12-2.1.8-63" url="packs/MechMagic/files/1.12.2Mods/Mods/Guide-API-1.12-2.1.8-63.jar" file="Guide-API-1.12-2.1.8-63.jar" md5="117d3d825059fceb0c1d04f8701beb00" download="server" type="mods" />
+        <mod name="Guide-API" version="1.12-2.1.8-63" url="packs/MechMagic/files/3.1.8/Guide-API-1.12-2.1.8-63.jar" file="Guide-API-1.12-2.1.8-63.jar" md5="117d3d825059fceb0c1d04f8701beb00" download="server" type="mods"/>
         
-        <mod name="GunpowderLib" version="1.12.2-1.0" url="packs/MechMagic/files/1.12.2Mods/Mods/GunpowderLib-1.12.2-1.0.jar" file="GunpowderLib-1.12.2-1.0.jar" md5="3db9feb2e7599dcbca3807341f97b592" download="server" type="mods" />
+        <mod name="GunpowderLib" version="1.12.2-1.0" url="packs/MechMagic/files/3.1.8/GunpowderLib-1.12.2-1.0.jar" file="GunpowderLib-1.12.2-1.0.jar" md5="3db9feb2e7599dcbca3807341f97b592" download="server" type="mods"/>
         
-        <mod name="LimeLib" version="1.12.2-1.7.12" url="packs/MechMagic/files/1.12.2Mods/Mods/limelib-1.12.2-1.7.12.jar" file="limelib-1.12.2-1.7.12.jar" md5="b5f00070b183c20dd92231f22e89d4ab" download="server" type="mods" />
+        <mod name="LimeLib" version="1.12.2-1.7.12" url="packs/MechMagic/files/3.1.8/limelib-1.12.2-1.7.12.jar" file="limelib-1.12.2-1.7.12.jar" md5="b5f00070b183c20dd92231f22e89d4ab" download="server" type="mods"/>
         
-        <mod name="Mantle" version="1.3.3.55" url="packs/MechMagic/files/1.12.2Mods/Mods/Mantle-1.12-1.3.3.55.jar" file="Mantle-1.12-1.3.3.55.jar" md5="1026f5f8d3c4997831decd9023ca65a6" download="server" type="mods" />
+        <mod name="Mantle" version="1.3.3.55" url="packs/MechMagic/files/3.1.8/Mantle-1.12-1.3.3.55.jar" file="Mantle-1.12-1.3.3.55.jar" md5="1026f5f8d3c4997831decd9023ca65a6" download="server" type="mods"/>
         
-        <mod name="McJtyLib" version="3.5.4" url="packs/MechMagic/files/1.12.2Mods/Mods/mcjtylib-1.12-3.5.4.jar" file="mcjtylib-1.12-3.5.4.jar" md5="45ac9983da9fd2bc7fe3446b9f4287c1" download="server" type="mods" />
+        <mod name="McJtyLib" version="3.5.4" url="packs/MechMagic/files/3.1.8/mcjtylib-1.12-3.5.4.jar" file="mcjtylib-1.12-3.5.4.jar" md5="45ac9983da9fd2bc7fe3446b9f4287c1" download="server" type="mods"/>
         
-        <mod name="MTLib" version="3.0.6" url="packs/MechMagic/files/1.12.2Mods/Mods/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods" />
+        <mod name="MTLib" version="3.0.6" url="packs/MechMagic/files/3.1.8/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods"/>
         
-        <mod name="Mystical Lib" version="1.1.1" url="packs/MechMagic/files/1.12.2Mods/Mods/mysticallib-1.12.2-1.7.0.jar" file="mysticallib-1.12.2-1.7.0.jar" md5="8b0c70600a01b616f1e0a5de0c6db0c4" download="server" type="mods" />
+        <mod name="Mystical Lib" version="1.1.1" url="packs/MechMagic/files/3.1.8/mysticallib-1.12.2-1.7.0.jar" file="mysticallib-1.12.2-1.7.0.jar" md5="8b0c70600a01b616f1e0a5de0c6db0c4" download="server" type="mods"/>
         
-        <mod name="OreLib Support Mod" version="1.12.2-3.6.0.1" url="packs/MechMagic/files/1.12.2Mods/Mods/OreLib-1.12.2-3.6.0.1.jar" file="OreLib-1.12.2-3.6.0.1.jar" md5="00cce3b240365458adcad3e77782358a" download="server" type="mods" />
+        <mod name="OreLib Support Mod" version="1.12.2-3.6.0.1" url="packs/MechMagic/files/3.1.8/OreLib-1.12.2-3.6.0.1.jar" file="OreLib-1.12.2-3.6.0.1.jar" md5="00cce3b240365458adcad3e77782358a" download="server" type="mods"/>
         
-        <mod name="p455w0rd&apos;s Library" version="1.12.2-2.3.161" url="packs/MechMagic/files/1.12.2Mods/Mods/p455w0rdslib-1.12.2-2.3.161.jar" file="p455w0rdslib-1.12.2-2.3.161.jar" md5="0f90369081c895ad54f5a011044d1779" download="server" type="mods" />
+        <mod name="p455w0rd's Library" version="1.12.2-2.3.161" url="packs/MechMagic/files/3.1.8/p455w0rdslib-1.12.2-2.3.161.jar" file="p455w0rdslib-1.12.2-2.3.161.jar" md5="0f90369081c895ad54f5a011044d1779" download="server" type="mods"/>
         
-        <mod name="Patchouli" version="1.0-20" url="packs/MechMagic/files/1.12.2Mods/Mods/Patchouli-1.0-20.jar" file="Patchouli-1.0-20.jar" md5="7ccc8471d31b2997768f813d8e3f7b96" download="server" type="mods" />
+        <mod name="Patchouli" version="1.0-21" url="packs/MechMagic/files/3.1.8/Patchouli-1.0-21.jar" file="Patchouli-1.0-21.jar" md5="91b259ab3aadfcc5afeffdc6ec79220b" download="server" type="mods"/>
         
-        <mod name="Reborn Core" version="3.19.2.522" url="packs/MechMagic/files/1.12.2Mods/Mods/RebornCore-1.12.2-3.19.2.522-universal.jar" file="RebornCore-1.12.2-3.19.2.522-universal.jar" md5="989aa656e7b917c405160d7029b20f73" download="server" type="mods" />
+        <mod name="Reborn Core" version="3.19.4.529" url="packs/MechMagic/files/3.1.8/RebornCore-1.12.2-3.19.4.529-universal.jar" file="RebornCore-1.12.2-3.19.4.529-universal.jar" md5="8d5500c19c06b758705071ab9c64d812" download="server" type="mods"/>
         
-        <mod name="ShadowMC" version="1.12-3.8.0" url="packs/MechMagic/files/1.12.2Mods/Mods/ShadowMC-1.12-3.8.0.jar" file="ShadowMC-1.12-3.8.0.jar" md5="4649d8bc9cf94f032b4482692f4b4c2d" download="server" type="mods" />
+        <mod name="ShadowMC" version="1.12-3.8.0" url="packs/MechMagic/files/3.1.8/ShadowMC-1.12-3.8.0.jar" file="ShadowMC-1.12-3.8.0.jar" md5="4649d8bc9cf94f032b4482692f4b4c2d" download="server" type="mods"/>
         
-        <mod name="ShetiPhian-Core" version="1.12.0-3.5.9" url="packs/MechMagic/files/1.12.2Mods/Mods/shetiphiancore-1.12.0-3.5.9.jar" file="shetiphiancore-1.12.0-3.5.9.jar" md5="0b44614578a9b52f1b5a75e312fdcf23" download="server" type="mods" />
+        <mod name="ShetiPhian-Core" version="1.12.0-3.5.9" url="packs/MechMagic/files/3.1.8/shetiphiancore-1.12.0-3.5.9.jar" file="shetiphiancore-1.12.0-3.5.9.jar" md5="0b44614578a9b52f1b5a75e312fdcf23" download="server" type="mods"/>
         
-        <mod name="Silent Lib" version="3.0.14" url="packs/MechMagic/files/1.12.2Mods/Mods/SilentLib-1.12.2-3.0.14168.jar" file="SilentLib-1.12.2-3.0.14168.jar" md5="1e66a91d88c26de3702af1c4f754a5e5" download="server" type="mods" />
+        <mod name="Silent Lib" version="3.0.14" url="packs/MechMagic/files/3.1.8/SilentLib-1.12.2-3.0.14168.jar" file="SilentLib-1.12.2-3.0.14168.jar" md5="1e66a91d88c26de3702af1c4f754a5e5" download="server" type="mods"/>
         
-        <mod name="Tesla Core Lib" version="1.12.2-1.0.17" url="packs/MechMagic/files/1.12.2Mods/Mods/tesla-core-lib-1.12.2-1.0.17.jar" file="tesla-core-lib-1.12.2-1.0.17.jar" md5="6c76ff8a9251852d00d9a648e72ad25c" download="server" type="mods" />
+        <mod name="Tesla Core Lib" version="1.12.2-1.0.17" url="packs/MechMagic/files/3.1.8/tesla-core-lib-1.12.2-1.0.17.jar" file="tesla-core-lib-1.12.2-1.0.17.jar" md5="6c76ff8a9251852d00d9a648e72ad25c" download="server" type="mods"/>
         
-        <mod name="WanionLib" version="1.12.2-2.4" url="packs/MechMagic/files/1.12.2Mods/Mods/WanionLib-1.12.2-2.4.jar" file="WanionLib-1.12.2-2.4.jar" md5="98eaacdc2b62a0d1bd47fefa2308713c" download="server" type="mods" />
+        <mod name="WanionLib" version="1.12.2-2.4" url="packs/MechMagic/files/3.1.8/WanionLib-1.12.2-2.4.jar" file="WanionLib-1.12.2-2.4.jar" md5="98eaacdc2b62a0d1bd47fefa2308713c" download="server" type="mods"/>
         
-        <mod name="Zero CORE" version="1.12.2-0.1.2.8" url="packs/MechMagic/files/1.12.2Mods/Mods/zerocore-1.12.2-0.1.2.8.jar" file="zerocore-1.12.2-0.1.2.8.jar" md5="cc782f73e62792dcdb108449baec110f" download="server" type="mods" />
+        <mod name="Zero CORE" version="1.12.2-0.1.2.8" url="packs/MechMagic/files/3.1.8/zerocore-1.12.2-0.1.2.8.jar" file="zerocore-1.12.2-0.1.2.8.jar" md5="cc782f73e62792dcdb108449baec110f" download="server" type="mods"/>
         
         
-        </mods>
-       
-    
-    
+        <mod name="Shadowfacts' Forgelin" version="1.8.4" url="packs/MechMagic/files/3.1.8/Forgelin-1.8.4.jar" file="Forgelin-1.8.4.jar" md5="2da79fce72265eab0541e565636d389d" download="server" type="mods"/>
+
+    <mod name="Lapis Stays in the Enchanting Table" version="1.1.3" url="packs/MechMagic/files/3.1.8/EnchantingTable-1.12-1.1.3.jar" file="EnchantingTable-1.12-1.1.3.jar" md5="fbfd70a18d887fd9bc08dd25ff91d61a" download="server" type="mods"/>
+
+    <mod name="Soartex Fanver - Modded" version="Soartex_Fanver_Modded_Universal.zip" url="packs/MechMagic/files/3.1.8/Soartex_Fanver_Modded_Universal.zip" file="Soartex_Fanver_Modded_Universal.zip" md5="9cbb98092ac1906c4b11aa7acd4bf846" download="server" type="resourcepack"/>
+
+    <mod name="Midnight" version="0.3.5" url="packs/MechMagic/files/3.1.8/themidnight-0.3.5.jar" file="themidnight-0.3.5.jar" md5="9ec9bb0abc550bc8f7f7345faa0928bb" download="server" type="mods"/>
+
+    </mods>
 </version>
